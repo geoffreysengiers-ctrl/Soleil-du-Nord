@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "titre": "Soleil du Nord",
+    "sous_titre": "Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.",
+    "dedicace": "Mi cocaïna 💗",
+    "derniere_maj": "2026-10-21T20:00:00+02:00",
+    "exclus": []
+  },
+  "articles": [
+    {
+      "id": "seed-crc-2026",
+      "date": "2026-10-12",
+      "date_ajout": "2026-10-21",
+      "titre": "Premier grand congrès mondial dédié au diabète de type 1",
+      "resume": "Breakthrough T1D (l'ancienne JDRF, la plus grande association de recherche sur le type 1) a réuni pour la première fois chercheurs, médecins, industriels et patients à Philadelphie du 9 au 11 octobre 2026, pour faire le point sur les avancées dans les soins et vers la guérison.",
+      "pourquoi": "Ce congrès devient un rendez-vous annuel : la prochaine édition est prévue à Washington en octobre 2027.",
+      "categorie": "Recherche",
+      "type": "Type 1",
+      "niveau": "Recherche",
+      "pays": "États-Unis",
+      "source_nom": "PR Newswire",
+      "source_url": "https://www.prnewswire.com/news-releases/breakthrough-t1d-concludes-inaugural-clinical--research-congress-highlighting-global-advances-in-type-1-diabetes-research-302906186.html",
+      "importance": 2
+    },
+    {
+      "id": "seed-easd-2026",
+      "date": "2026-10-02",
+      "date_ajout": "2026-10-21",
+      "titre": "Le grand congrès européen du diabète s'est tenu à Milan",
+      "resume": "La 62e réunion annuelle de l'EASD, l'association européenne pour l'étude du diabète, a eu lieu à Milan du 28 septembre au 2 octobre 2026, avec des sessions sur les nouvelles technologies et les traitements du type 1 et du type 2.",
+      "pourquoi": "C'est là que sont présentés beaucoup de résultats d'essais cliniques européens de l'année.",
+      "categorie": "Recherche",
+      "type": "Général",
+      "niveau": "Recherche",
+      "pays": "Italie",
+      "source_nom": "EASD",
+      "source_url": "https://www.easd.org/uploads/EASD2026_PAG.pdf",
+      "importance": 1
+    }
+  ]
+}
