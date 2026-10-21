@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Les petites avancées</title>
+  <meta name="description" content="Les avancées de la recherche sur le diabète de type 1, expliquées simplement.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23c9b8ff'/><path d='M50 72 C30 58 24 46 32 36 C38 29 47 31 50 38 C53 31 62 29 68 36 C76 46 70 58 50 72Z' fill='%23fff'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <header class="hero">
+    <p class="dedicace" id="dedicace"></p>
+    <h1 id="titre">Les petites avancées</h1>
+    <p class="sous-titre" id="sous-titre">Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.</p>
+    <p class="maj" id="maj"></p>
+  </header>
+
+  <main>
+    <section class="outils" aria-label="Filtres">
+      <input type="search" id="recherche" placeholder="Chercher (îlots, capteur, teplizumab…)" aria-label="Rechercher">
+      <div class="chips" id="chips-type" role="group" aria-label="Thème"></div>
+      <div class="chips" id="chips-niveau" role="group" aria-label="Où on en est"></div>
+    </section>
+
+    <section class="legende" aria-label="Légende">
+      <span><i class="pastille recherche"></i>Recherche (labo)</span>
+      <span><i class="pastille essai"></i>Essai clinique</span>
+      <span><i class="pastille approuve"></i>Approuvé</span>
+      <span><i class="pastille disponible"></i>Disponible</span>
+    </section>
+
+    <section id="liste" class="liste" aria-live="polite"></section>
+    <p id="vide" class="vide" hidden>Rien pour ces filtres… pour l'instant 🌸</p>
+  </main>
+
+  <footer>
+    <p>Ces articles sont rassemblés automatiquement pour informer, pas pour soigner. Avant de changer quoi que ce soit à un traitement, on en parle d'abord à son diabétologue.</p>
+    <p class="petit">Fait avec 💜</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
