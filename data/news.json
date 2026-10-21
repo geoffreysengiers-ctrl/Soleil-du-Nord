@@ -3,10 +3,63 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.",
     "dedicace": "Mi cocaïna 💗",
-    "derniere_maj": "2026-10-21T20:00:00+02:00",
+    "derniere_maj": "2026-10-21T20:58:50+02:00",
     "exclus": []
   },
   "articles": [
+    {
+      "date": "2026-10-21",
+      "titre": "Greffe d'îlots : un essai s'ouvre pour la première fois aux personnes avec maladie des reins",
+      "resume": "Le 21 octobre 2026, Breakthrough T1D a annoncé le lancement d'un essai (universités de Chicago et de Miami) qui associe une greffe d'îlots de pancréas — les amas de cellules qui fabriquent l'insuline — et un traitement anti-rejet expérimental, le tegoprubart. La première personne transplantée est une personne vivant avec un diabète de type 1 et une maladie rénale chronique : c'est la première fois qu'un essai de greffe d'îlots accepte ce profil de patients, jusqu'ici exclus. L'essai prévoit 10 participants. Dans l'essai précédent du même type, les 12 participants ont arrêté l'insuline externe, et 3 personnes de plus sont en cours d'inclusion.",
+      "pourquoi": "Cela ouvre la greffe d'îlots à des personnes qui ne pouvaient pas en bénéficier — mais c'est un petit essai, avec des îlots venant de donneurs décédés et un traitement anti-rejet à vie.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "Breakthrough T1D (communiqué de presse)",
+      "source_url": "https://www.prnewswire.com/news-releases/breakthrough-t1d-funded-clinical-trial-testing-islet-cell-transplantation-with-eledons-tegoprubart-expands-to-include-people-with-type-1-diabetes-and-kidney-disease-302915841.html",
+      "references": [
+        "NCT07592000"
+      ],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "df85584ce59a",
+      "date_ajout": "2026-10-21"
+    },
+    {
+      "date": "2026-10-15",
+      "titre": "Un médicament qui ne vise que les cellules attaquées est testé pour la première fois chez l'humain",
+      "resume": "Immunocore, avec l'université de Floride, a annoncé le 15 octobre 2026 qu'un premier patient atteint de diabète de type 1 a reçu un traitement expérimental, IMC-S118AI. Ce médicament (un anticorps de synthèse) est conçu pour freiner uniquement les cellules immunitaires qui attaquent les cellules bêta du pancréas, celles qui fabriquent l'insuline, sans affaiblir tout le système immunitaire. C'est un essai de phase 1 (le tout premier test chez l'humain) : il vérifie d'abord la tolérance, sur 154 participants prévus.",
+      "pourquoi": "Si ce ciblage très précis fonctionne, il pourrait ralentir la destruction des cellules qui fabriquent l'insuline — mais aucun résultat chez l'humain n'existe encore, on en est au tout début.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Royaume-Uni / États-Unis",
+      "source_nom": "Immunocore (communiqué de presse)",
+      "source_url": "https://www.immunocore.com/investors/news/press-releases/detail/136/immunocore-announces-first-patient-dosed-in-the-phase-1-trial-of-imc-s118ai-its-first-tissue-specific-autoimmune-candidate-for-patients-with-type-1-diabetes",
+      "references": [
+        "NCT07493122",
+        "DOI:10.1126/sciadv.aec9029"
+      ],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "d74231c2123a",
+      "date_ajout": "2026-10-21"
+    },
+    {
+      "date": "2026-10-13",
+      "titre": "Un « jumeau numérique » pour prévoir les complications du diabète de type 1",
+      "resume": "Des chercheurs du Luxembourg et de France ont présenté à l'EASD 2026 un modèle informatique fondé sur l'intelligence artificielle et construit à partir des données de 2 187 personnes vivant avec un diabète de type 1 (cohorte française SFDT1). Le modèle répartit les personnes en 7 profils de risque de complications (cœur, reins notamment) à partir de 25 données : âge au diagnostic, HbA1c, temps passé dans la cible, tension, tabac… Une interface web permet de visualiser et de simuler l'évolution d'un profil.",
+      "pourquoi": "L'objectif est de mieux repérer tôt les personnes les plus à risque pour adapter le suivi — c'est encore un travail de recherche, présenté en congrès, pas un outil utilisé en consultation.",
+      "categorie": "Technologie",
+      "niveau": "Recherche",
+      "pays": "Luxembourg / France",
+      "source_nom": "Medscape (d'après le congrès EASD 2026)",
+      "source_url": "https://www.medscape.com/viewarticle/ai-model-maps-complication-risk-type-1-diabetes-2026a10012bn",
+      "references": [],
+      "importance": 1,
+      "type": "Type 1",
+      "id": "66ac06be9d41",
+      "date_ajout": "2026-10-21"
+    },
     {
       "id": "seed-crc-2026",
       "date": "2026-10-12",
@@ -21,6 +74,22 @@
       "source_nom": "PR Newswire",
       "source_url": "https://www.prnewswire.com/news-releases/breakthrough-t1d-concludes-inaugural-clinical--research-congress-highlighting-global-advances-in-type-1-diabetes-research-302906186.html",
       "importance": 2
+    },
+    {
+      "date": "2026-10-02",
+      "titre": "Dépistage : plus de 140 000 enfants testés en Europe, 0,45 % repérés au stade précoce",
+      "resume": "Au congrès européen du diabète (EASD 2026, Milan, du 28 septembre au 2 octobre), le programme européen EDENT1FI a présenté les résultats de ses dépistages pilotes menés dans 8 pays : plus de 140 000 enfants et jeunes ont eu une analyse de sang cherchant les auto-anticorps (les anticorps qui s'attaquent aux cellules qui fabriquent l'insuline). 627 d'entre eux, soit 0,45 %, avaient un diabète de type 1 au stade précoce, avant tout symptôme. Conclusion des chercheurs : dépister une classe d'âge entière est réalisable.",
+      "pourquoi": "Repérer la maladie avant les premiers symptômes évite les découvertes en urgence (acidocétose) et permet un suivi anticipé — mais un dépistage généralisé n'est pas encore décidé, la France en est encore aux essais chez les apparentés.",
+      "categorie": "Dépistage & prévention",
+      "niveau": "Recherche",
+      "pays": "Europe (8 pays)",
+      "source_nom": "Diabetes UK (d'après le congrès EASD 2026)",
+      "source_url": "https://www.diabetes.org.uk/about-us/news-and-views/september-research-highlights-europes-largest-diabetes-conference",
+      "references": [],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "62541ea40860",
+      "date_ajout": "2026-10-21"
     },
     {
       "id": "seed-easd-2026",
