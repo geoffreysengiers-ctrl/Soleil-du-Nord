@@ -207,8 +207,6 @@
       const meta = data.meta || {};
       if (meta.dedicace) $("dedicace").textContent = meta.dedicace;
       if (meta.titre) { $("titre").textContent = meta.titre; document.title = meta.titre; }
-      if (meta.derniere_maj) $("maj").textContent = "Mis à jour le " + dateFr(meta.derniere_maj.slice(0, 10));
-      else $("maj").hidden = true;
 
       articles = (data.articles || []).slice().sort((a, b) =>
         (b.date || "").localeCompare(a.date || "") || (b.importance || 0) - (a.importance || 0));
