@@ -26,17 +26,24 @@
     return (Date.now() - new Date(iso + "T12:00:00").getTime()) / 86400000;
   }
 
-  function chips(conteneur, valeurs, cle) {
-    conteneur.innerHTML = valeurs.map((v) =>
-      `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${etat[cle] === v}">${esc(v)}</button>`).join("");
-    conteneur.addEventListener("click", (e) => {
-      const b = e.target.closest(".chip");
-      if (!b) return;
-      etat[cle] = b.dataset.v;
+  // Liste déroulante : chaque option affiche le nombre d'articles correspondants
+  function liste(select, valeurs, cle, champ, tous) {
+    select.innerHTML = valeurs.map((v) => {
+      const n = v === tous ? articles.length : articles.filter((a) => a[champ] === v).length;
+      return `<option value="${esc(v)}"${etat[cle] === v ? " selected" : ""}>${esc(v)} (${n})</option>`;
+    }).join("");
+    select.addEventListener("change", () => {
+      etat[cle] = select.value;
       etat.affiches = PAR_PAGE;
-      conteneur.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === b));
       rendre();
     });
+  }
+
+  function majFiltresActifs() {
+    const actif = etat.theme !== "Tout voir" || etat.niveau !== "Tout" || etat.q.trim() !== "";
+    $("effacer").hidden = !actif;
+    $("filtre-theme").classList.toggle("actif", etat.theme !== "Tout voir");
+    $("filtre-niveau").classList.toggle("actif", etat.niveau !== "Tout");
   }
 
   function filtrer() {
@@ -93,6 +100,7 @@
     $("liste").innerHTML = visibles.map(carte).join("") +
       (res.length > visibles.length ? `<button class="chip plus" id="plus" type="button">Voir plus (${res.length - visibles.length})</button>` : "");
     $("vide").hidden = res.length > 0;
+    majFiltresActifs();
     const plus = $("plus");
     if (plus) plus.onclick = () => { etat.affiches += PAR_PAGE; rendre(); };
   }
@@ -112,9 +120,14 @@
         (b.date || "").localeCompare(a.date || "") || (b.importance || 0) - (a.importance || 0));
 
       const presents = new Set(articles.map((a) => a.categorie));
-      chips($("chips-type"), THEMES.filter((t) => t === "Tout voir" || presents.has(t)), "theme");
-      chips($("chips-niveau"), ["Tout", ...Object.keys(NIVEAUX)], "niveau");
+      liste($("filtre-theme"), THEMES.filter((t) => t === "Tout voir" || presents.has(t)), "theme", "categorie", "Tout voir");
+      liste($("filtre-niveau"), ["Tout", ...Object.keys(NIVEAUX)], "niveau", "niveau", "Tout");
       $("recherche").addEventListener("input", (e) => { etat.q = e.target.value; etat.affiches = PAR_PAGE; rendre(); });
+      $("effacer").addEventListener("click", () => {
+        etat.theme = "Tout voir"; etat.niveau = "Tout"; etat.q = ""; etat.affiches = PAR_PAGE;
+        $("filtre-theme").value = "Tout voir"; $("filtre-niveau").value = "Tout"; $("recherche").value = "";
+        rendre();
+      });
       rendre();
     } catch (err) {
       $("liste").innerHTML = '<p class="erreur">Impossible de charger les nouvelles pour le moment. Réessaie un peu plus tard 🌷</p>';

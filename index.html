@@ -24,8 +24,17 @@
   <main>
     <section class="outils" aria-label="Filtres">
       <input type="search" id="recherche" placeholder="Chercher (îlots, capteur, teplizumab…)" aria-label="Rechercher">
-      <div class="chips" id="chips-type" role="group" aria-label="Thème"></div>
-      <div class="chips" id="chips-niveau" role="group" aria-label="Où on en est"></div>
+      <div class="filtres">
+        <label class="liste-deroulante">
+          <span>Thème</span>
+          <select id="filtre-theme"></select>
+        </label>
+        <label class="liste-deroulante">
+          <span>Où on en est</span>
+          <select id="filtre-niveau"></select>
+        </label>
+      </div>
+      <button class="effacer" id="effacer" type="button" hidden>✕ Effacer les filtres</button>
     </section>
 
     <section class="legende" aria-label="Légende">
