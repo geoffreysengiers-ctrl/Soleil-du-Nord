@@ -60,7 +60,9 @@ body {
 .hero { text-align: center; padding: 56px 16px 24px; max-width: 760px; margin: 0 auto; }
 .dedicace { font-weight: 700; color: var(--lavande-fonce); margin: 0 0 8px; letter-spacing: .02em; min-height: 1em; }
 h1 { font-family: "Fraunces", Georgia, serif; font-weight: 700; font-size: clamp(2.2rem, 7vw, 3.6rem); line-height: 1.05; margin: 0 0 12px; }
-.sous-titre { color: var(--doux); font-size: 1.08rem; margin: 0 auto 10px; max-width: 34em; }
+.sous-titre { color: var(--doux); font-size: 1.08rem; font-style: italic; margin: 0 auto 10px; max-width: 34em; min-height: 3.2em; }
+.citation-label { font-style: normal; font-weight: 700; color: var(--lavande-fonce); }
+.citation-auteur { font-style: normal; font-size: .9em; white-space: nowrap; }
 .maj { display: inline-block; background: var(--carte); border: 1px solid var(--bord); border-radius: 99px; padding: 4px 14px; font-size: .85rem; color: var(--doux); margin: 6px 0 0; }
 
 main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }

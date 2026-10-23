@@ -158,15 +158,24 @@
     const d = new Date();
     return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000);
   }
-  async function ouvrirMot() {
+  async function citationDuJour() {
     if (!citations) {
       try {
         const r = await fetch("data/citations.json?v=" + numeroDuJour());
         citations = (await r.json()).citations || [];
       } catch (_) { citations = []; }
     }
-    const c = citations.length ? citations[numeroDuJour() % citations.length]
-                               : { texte: "Tu illumines mes journées, même de loin." };
+    return citations.length ? citations[numeroDuJour() % citations.length]
+                            : { texte: "Tu illumines mes journées, même de loin." };
+  }
+  // Sous le titre : « Citation du jour : … »
+  async function afficherCitationSousTitre() {
+    const c = await citationDuJour();
+    $("sous-titre").innerHTML = '<span class="citation-label">Citation du jour :</span> « ' + esc(c.texte) + ' »' +
+      (c.auteur ? ' <span class="citation-auteur">— ' + esc(c.auteur) + "</span>" : "");
+  }
+  async function ouvrirMot() {
+    const c = await citationDuJour();
     $("mot-texte").textContent = "« " + c.texte + " »";
     $("mot-auteur").textContent = c.auteur ? "— " + c.auteur : "";
     $("mot-auteur").hidden = !c.auteur;
@@ -187,6 +196,7 @@
 
   async function demarrer() {
     brancherSecrets();
+    afficherCitationSousTitre();
     $("liste").addEventListener("click", (e) => {
       const b = e.target.closest(".partager");
       if (b) partager(b.dataset.id);
@@ -197,7 +207,6 @@
       const meta = data.meta || {};
       if (meta.dedicace) $("dedicace").textContent = meta.dedicace;
       if (meta.titre) { $("titre").textContent = meta.titre; document.title = meta.titre; }
-      if (meta.sous_titre) $("sous-titre").textContent = meta.sous_titre;
       if (meta.derniere_maj) $("maj").textContent = "Mis à jour le " + dateFr(meta.derniere_maj.slice(0, 10));
       else $("maj").hidden = true;
 
