@@ -2,21 +2,33 @@
 <html lang="fr">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Soleil du Nord</title>
   <meta name="description" content="Les avancées de la recherche sur le diabète de type 1, expliquées simplement.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fdf8f5" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#1d1828" media="(prefers-color-scheme: dark)">
+
+  <!-- Installable comme une appli -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Soleil du Nord">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23c9b8ff'/><path d='M50 72 C30 58 24 46 32 36 C38 29 47 31 50 38 C53 31 62 29 68 36 C76 46 70 58 50 72Z' fill='%23fff'/></svg>">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=3">
+  <link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
   <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
 
   <header class="hero">
-    <p class="dedicace" id="dedicace">Ma cocaïne 💗</p>
-    <h1 id="titre">Soleil du Nord</h1>
+    <p class="dedicace secret" id="dedicace" role="button" tabindex="0" aria-label="Un petit mot pour toi">Ma cocaïne 💗</p>
+    <h1 id="titre" class="secret" role="button" tabindex="0">Soleil du Nord</h1>
     <p class="sous-titre" id="sous-titre">Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.</p>
     <p class="maj" id="maj"></p>
   </header>
@@ -44,6 +56,18 @@
     <p class="petit">Fait avec 💜</p>
   </footer>
 
-  <script src="app.js?v=3"></script>
+  <!-- Le mot du jour (s'ouvre en touchant le cœur ou le titre) -->
+  <div class="mot" id="mot" hidden>
+    <div class="mot-carte" role="dialog" aria-modal="true" aria-labelledby="mot-titre">
+      <p class="mot-titre" id="mot-titre">Le mot du jour 💗</p>
+      <blockquote id="mot-texte"></blockquote>
+      <p class="mot-auteur" id="mot-auteur"></p>
+      <button class="chip" type="button" id="mot-fermer">Merci ☀️</button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="app.js?v=4"></script>
 </body>
 </html>

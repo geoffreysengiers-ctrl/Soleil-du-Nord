@@ -1,0 +1,17 @@
+{
+  "name": "Soleil du Nord",
+  "short_name": "Soleil du Nord",
+  "description": "Les avancées de la recherche sur le diabète de type 1, expliquées simplement.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fdf8f5",
+  "theme_color": "#c9b8ff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

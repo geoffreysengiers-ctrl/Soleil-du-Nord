@@ -8,6 +8,8 @@ Hébergé gratuitement sur GitHub Pages.
 ```
 index.html, style.css, app.js   → le site
 data/news.json                  → les avancées publiées (seul fichier modifié par Hermès)
+data/citations.json             → « le mot du jour » (toucher le cœur ou le titre), une citation par jour
+manifest.webmanifest, sw.js, icons/ → appli installable sur l'écran d'accueil
 hermes/add_news.py              → script : proposer / publier / rejeter (vérifie et déduplique)
 hermes/SKILL.md                 → la skill à installer dans le profil t1d d'Hermès
 ```

@@ -15,7 +15,7 @@
 
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const sansAccent = (s) => String(s ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  const sansAccent = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
   const urlSure = (u) => /^https?:\/\//i.test(u || "") ? u : "#";
 
   function dateFr(iso) {
@@ -25,7 +25,23 @@
   function joursDepuis(iso) {
     return (Date.now() - new Date(iso + "T12:00:00").getTime()) / 86400000;
   }
+  // Identifiant stable d'un article, pour pouvoir partager un lien direct vers sa carte
+  function idArticle(a) {
+    const base = sansAccent((a.date || "") + "-" + (a.titre || "")).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+    return "a-" + base.slice(0, 70);
+  }
 
+  /* ---------- Petit message en bas de l'écran ---------- */
+  let minuteurToast;
+  function toast(texte) {
+    const t = $("toast");
+    t.textContent = texte;
+    t.hidden = false;
+    clearTimeout(minuteurToast);
+    minuteurToast = setTimeout(() => { t.hidden = true; }, 2200);
+  }
+
+  /* ---------- Filtres en pastilles ---------- */
   function chips(conteneur, valeurs, cle) {
     conteneur.innerHTML = valeurs.map((v) =>
       `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${etat[cle] === v}">${esc(v)}</button>`).join("");
@@ -35,6 +51,8 @@
       etat[cle] = b.dataset.v;
       etat.affiches = PAR_PAGE;
       conteneur.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === b));
+      // Sur téléphone, la pastille choisie se recentre dans la ligne qui défile
+      b.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
       rendre();
     });
   }
@@ -68,7 +86,7 @@
     const niv = NIVEAUX[a.niveau] || "recherche";
     const neuf = joursDepuis(a.date_ajout || a.date) <= 7;
     return `
-      <article class="carte${a.importance >= 3 ? " importante" : ""}">
+      <article class="carte${a.importance >= 3 ? " importante" : ""}" id="${idArticle(a)}">
         <div class="carte-haut">
           ${neuf ? '<span class="tag nouveau">✨ Nouveau</span>' : ""}
           <span class="tag niveau ${niv}">${esc(a.niveau)}</span>
@@ -83,8 +101,31 @@
         <div class="liens">
           <a class="source" href="${esc(urlSure(a.source_url))}" target="_blank" rel="noopener">Lire la source · ${esc(a.source_nom)} →</a>
           ${refs(a.references)}
+          <button class="partager" type="button" data-id="${idArticle(a)}" aria-label="Partager cet article">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Partager
+          </button>
         </div>
       </article>`;
+  }
+
+  /* ---------- Partage d'un article ---------- */
+  async function partager(id) {
+    const a = articles.find((x) => idArticle(x) === id);
+    if (!a) return;
+    const lien = location.origin + location.pathname + "#" + id;
+    const texte = a.titre + (a.pourquoi ? "\n\n" + a.pourquoi : "") +
+      (a.source_url ? "\n\nSource : " + a.source_url : "");
+    if (navigator.share) {
+      try { await navigator.share({ title: a.titre, text: texte, url: lien }); } catch (_) { /* partage annulé */ }
+      return;
+    }
+    try {
+      await navigator.clipboard.writeText(texte + "\n\n" + lien);
+      toast("Lien copié ✓ Il n'y a plus qu'à le coller");
+    } catch (_) {
+      prompt("Copie ce lien :", lien);
+    }
   }
 
   function rendre() {
@@ -97,7 +138,59 @@
     if (plus) plus.onclick = () => { etat.affiches += PAR_PAGE; rendre(); };
   }
 
+  // Ouvre directement l'article reçu par lien partagé (…/#a-2026-10-21-…)
+  function allerAuLienPartage() {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!id) return;
+    const rang = articles.findIndex((a) => idArticle(a) === id);
+    if (rang < 0) return;
+    if (rang >= etat.affiches) { etat.affiches = rang + 1; rendre(); }
+    const el = $(id);
+    if (!el) return;
+    el.classList.add("eclaire");
+    setTimeout(() => el.scrollIntoView({ behavior: "smooth", block: "start" }), 150);
+    setTimeout(() => el.classList.remove("eclaire"), 2600);
+  }
+
+  /* ---------- Le mot du jour ---------- */
+  let citations = null;
+  function numeroDuJour() {
+    const d = new Date();
+    return Math.floor(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) / 86400000);
+  }
+  async function ouvrirMot() {
+    if (!citations) {
+      try {
+        const r = await fetch("data/citations.json?v=" + numeroDuJour());
+        citations = (await r.json()).citations || [];
+      } catch (_) { citations = []; }
+    }
+    const c = citations.length ? citations[numeroDuJour() % citations.length]
+                               : { texte: "Tu illumines mes journées, même de loin." };
+    $("mot-texte").textContent = "« " + c.texte + " »";
+    $("mot-auteur").textContent = c.auteur ? "— " + c.auteur : "";
+    $("mot-auteur").hidden = !c.auteur;
+    $("mot").hidden = false;
+    $("mot-fermer").focus();
+  }
+  function fermerMot() { $("mot").hidden = true; }
+
+  function brancherSecrets() {
+    document.querySelectorAll(".secret").forEach((el) => {
+      el.addEventListener("click", ouvrirMot);
+      el.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); ouvrirMot(); } });
+    });
+    $("mot-fermer").addEventListener("click", fermerMot);
+    $("mot").addEventListener("click", (e) => { if (e.target === $("mot")) fermerMot(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") fermerMot(); });
+  }
+
   async function demarrer() {
+    brancherSecrets();
+    $("liste").addEventListener("click", (e) => {
+      const b = e.target.closest(".partager");
+      if (b) partager(b.dataset.id);
+    });
     try {
       const r = await fetch("data/news.json?v=" + Date.now(), { cache: "no-store" });
       const data = await r.json();
@@ -116,10 +209,17 @@
       chips($("chips-niveau"), ["Tout", ...Object.keys(NIVEAUX)], "niveau");
       $("recherche").addEventListener("input", (e) => { etat.q = e.target.value; etat.affiches = PAR_PAGE; rendre(); });
       rendre();
+      allerAuLienPartage();
+      window.addEventListener("hashchange", allerAuLienPartage);
     } catch (err) {
       $("liste").innerHTML = '<p class="erreur">Impossible de charger les nouvelles pour le moment. Réessaie un peu plus tard 🌷</p>';
       console.error(err);
     }
+  }
+
+  // Appli installable : le service worker garde une copie pour l'ouverture hors ligne
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
   }
 
   demarrer();

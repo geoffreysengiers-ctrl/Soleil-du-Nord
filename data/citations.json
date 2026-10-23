@@ -1,0 +1,96 @@
+{
+  "_aide": "Une citation différente chaque jour, dans l'ordre de la liste puis on recommence. Pour en ajouter : copie une ligne {\"texte\": \"…\", \"auteur\": \"…\"} (l'auteur est facultatif).",
+  "citations": [
+    {
+      "texte": "Les petits pas comptent aussi. Surtout ceux qu'on fait les jours difficiles."
+    },
+    {
+      "texte": "Le soleil ne se demande jamais s'il brille assez. Il brille, c'est tout."
+    },
+    {
+      "texte": "Tu as déjà traversé tous tes pires jours. Ton score, pour l'instant : 100 %."
+    },
+    {
+      "texte": "Être patient avec soi-même, c'est aussi une forme de courage."
+    },
+    {
+      "texte": "Chaque matin est une page blanche. Pas besoin d'écrire un roman, une jolie phrase suffit."
+    },
+    {
+      "texte": "Ce qui pousse lentement pousse souvent le plus solide."
+    },
+    {
+      "texte": "Les nuages passent. Le ciel, lui, reste."
+    },
+    {
+      "texte": "Prends soin de toi comme tu prends soin des autres : avec douceur et sans compter."
+    },
+    {
+      "texte": "On n'a pas besoin de voir tout l'escalier. Juste la prochaine marche."
+    },
+    {
+      "texte": "La force, ce n'est pas de ne jamais flancher. C'est de se relever avec le sourire."
+    },
+    {
+      "texte": "Aujourd'hui, quelqu'un quelque part fait avancer la science pour toi."
+    },
+    {
+      "texte": "Une mauvaise journée n'est pas une mauvaise vie."
+    },
+    {
+      "texte": "Les étoiles ont besoin de la nuit pour briller."
+    },
+    {
+      "texte": "Tu n'as rien à prouver. Tu as juste à être toi, et c'est déjà beaucoup."
+    },
+    {
+      "texte": "Ralentir, ce n'est pas reculer. C'est choisir son rythme."
+    },
+    {
+      "texte": "Chaque chiffre n'est qu'un instant. Toi, tu es toute une histoire."
+    },
+    {
+      "texte": "Le bonheur se cache souvent dans les choses simples : un café chaud, un fou rire, un message inattendu."
+    },
+    {
+      "texte": "Respire. Tu fais mieux que ce que tu crois."
+    },
+    {
+      "texte": "Même la plus longue des routes se fait un pas après l'autre."
+    },
+    {
+      "texte": "Parfois, il suffit de changer de perspective pour découvrir des possibilités qu'on n'avait jamais imaginées.",
+      "auteur": "@crypto_Goku"
+    },
+    {
+      "texte": "Ce que tu fais pour toi aujourd'hui, ton toi de demain te dira merci."
+    },
+    {
+      "texte": "La lumière revient toujours. C'est sa spécialité."
+    },
+    {
+      "texte": "Il n'y a pas de petite victoire. Il n'y a que des victoires."
+    },
+    {
+      "texte": "Tu es plus forte que ce qui t'arrive."
+    },
+    {
+      "texte": "Les meilleures choses arrivent souvent quand on arrête de les attendre."
+    },
+    {
+      "texte": "Garde ton cœur ouvert : c'est par là qu'entre le soleil."
+    },
+    {
+      "texte": "Doucement, c'est aussi une vitesse."
+    },
+    {
+      "texte": "Le courage, parfois, c'est juste de recommencer demain."
+    },
+    {
+      "texte": "On ne contrôle pas le vent, mais on peut toujours orienter ses voiles."
+    },
+    {
+      "texte": "Un jour, tout ça sera un souvenir. Fais-en un joli."
+    }
+  ]
+}
