@@ -3,7 +3,7 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.",
     "dedicace": "Ma cocaïne 💗",
-    "derniere_maj": "2026-10-21T20:58:50+02:00",
+    "derniere_maj": "2026-10-23T19:57:53+02:00",
     "exclus": []
   },
   "articles": [
@@ -76,6 +76,22 @@
       "importance": 2
     },
     {
+      "date": "2026-10-09",
+      "titre": "Greffe d'îlots : une autre maladie auto-immune n'empêche pas la greffe de réussir",
+      "resume": "L'équipe de diabétologie du CHU de Lille a présenté, au congrès de la Société française d'endocrinologie (Bordeaux, du 7 au 9 octobre 2026), les résultats de 55 patients ayant reçu une greffe d'îlots de pancréas à Lille entre 2015 et 2025. Quatorze d'entre eux avaient aussi une autre maladie auto-immune (thyroïde, maladie cœliaque, polyarthrite…). Chez la moitié de ces 14 patients, la greffe fonctionnait encore très bien 5 ans après (score d'efficacité élevé). Autrement dit, avoir une deuxième maladie auto-immune ne semble pas empêcher une greffe d'îlots de tenir.",
+      "pourquoi": "Cela pourrait ouvrir un peu plus la greffe d'îlots à des personnes qui en étaient écartées à cause d'une autre maladie auto-immune — mais ce sont des données de congrès, sur peu de patients, et la greffe d'îlots reste réservée aux diabètes très instables.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "France",
+      "source_nom": "Univadis (d'après le 42e congrès de la SFE 2026)",
+      "source_url": "https://www.univadis.fr/viewarticle/sfe-2026-greffe-d%C3%AElots-indiqu%C3%A9e-maladies-auto-2026a10012qt",
+      "references": [],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "2ed91d5d967d",
+      "date_ajout": "2026-10-23"
+    },
+    {
       "date": "2026-10-02",
       "titre": "Dépistage : plus de 140 000 enfants testés en Europe, 0,45 % repérés au stade précoce",
       "resume": "Au congrès européen du diabète (EASD 2026, Milan, du 28 septembre au 2 octobre), le programme européen EDENT1FI a présenté les résultats de ses dépistages pilotes menés dans 8 pays : plus de 140 000 enfants et jeunes ont eu une analyse de sang cherchant les auto-anticorps (les anticorps qui s'attaquent aux cellules qui fabriquent l'insuline). 627 d'entre eux, soit 0,45 %, avaient un diabète de type 1 au stade précoce, avant tout symptôme. Conclusion des chercheurs : dépister une classe d'âge entière est réalisable.",
@@ -105,6 +121,25 @@
       "source_nom": "EASD",
       "source_url": "https://www.easd.org/uploads/EASD2026_PAG.pdf",
       "importance": 1
+    },
+    {
+      "date": "2026-03-25",
+      "titre": "Greffe d'îlots : un gène pour savoir à l'avance si la greffe va bien tenir",
+      "resume": "L'équipe du Pr Julie Kerr-Conte (CHU de Lille, Inserm, Institut Pasteur de Lille) a montré qu'un gène, NKX6.1, permet de prévoir la réussite d'une greffe d'îlots de pancréas. Le gène a été mesuré dans 114 préparations d'îlots et confronté aux résultats de 34 patients greffés : plus il est exprimé, meilleures sont la fonction de la greffe et sa durée (taux de succès à 10 ans), indépendamment de la quantité d'îlots greffés. Le résultat a été retrouvé dans un groupe indépendant de 9 patients. Ce test de laboratoire pourrait être ajouté aux contrôles faits avant une greffe. Travail publié dans Science Translational Medicine le 25 mars 2026.",
+      "pourquoi": "Mieux choisir les îlots avant de les greffer, c'est augmenter les chances que la greffe fonctionne — c'est un outil de tri en laboratoire, pas encore un nouveau traitement.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "France",
+      "source_nom": "Institut Pasteur de Lille / Science Translational Medicine",
+      "source_url": "https://pasteur-lille.fr/actualites/greffe-ilots-pancreatiques-prediction-efficacite/",
+      "references": [
+        "PMID:41880516",
+        "DOI:10.1126/scitranslmed.aed3562"
+      ],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "c1e478db5ae7",
+      "date_ajout": "2026-10-23"
     }
   ]
 }
