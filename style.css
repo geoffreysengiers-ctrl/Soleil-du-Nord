@@ -49,25 +49,7 @@ main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }
 }
 #recherche:focus { border-color: var(--lavande); }
 
-/* Filtres en listes déroulantes, côte à côte même sur mobile */
-.filtres { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-.liste-deroulante { display: grid; gap: 4px; min-width: 0; }
-.liste-deroulante span { font-size: .78rem; font-weight: 700; color: var(--doux); padding-left: 14px; }
-.liste-deroulante select {
-  width: 100%; min-width: 0; appearance: none; -webkit-appearance: none; cursor: pointer;
-  font: inherit; font-weight: 600; font-size: .92rem; color: var(--texte);
-  padding: 10px 36px 10px 16px; border-radius: 99px; border: 2px solid var(--bord);
-  background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%238f78e6' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") no-repeat right 14px center;
-  text-overflow: ellipsis; white-space: nowrap; overflow: hidden; outline: none; transition: border-color .2s, background-color .2s;
-}
-.liste-deroulante select:focus { border-color: var(--lavande); }
-.liste-deroulante select.actif { border-color: var(--lavande); background-color: #f6f1ff; color: var(--lavande-fonce); }
-.effacer {
-  justify-self: start; border: none; background: none; cursor: pointer; font: inherit; font-weight: 700;
-  font-size: .85rem; color: var(--lavande-fonce); padding: 2px 14px;
-}
-.effacer:hover { text-decoration: underline; }
-.effacer[hidden] { display: none; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
 .chip {
   border: none; cursor: pointer; font: inherit; font-weight: 600; font-size: .9rem;
   padding: 7px 14px; border-radius: 99px; background: #fff; color: var(--doux);
@@ -122,7 +104,6 @@ footer .petit { font-size: .8rem; opacity: .8; }
   .hero { padding-top: 40px; }
   .carte { padding: 16px; }
   .date { margin-left: 0; width: 100%; }
-  .liste-deroulante select { font-size: .86rem; padding: 10px 30px 10px 13px; background-position: right 11px center; }
 }
 
 @media (prefers-reduced-motion: reduce) {

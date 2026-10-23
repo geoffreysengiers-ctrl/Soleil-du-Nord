@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=2">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -24,17 +24,8 @@
   <main>
     <section class="outils" aria-label="Filtres">
       <input type="search" id="recherche" placeholder="Chercher (îlots, capteur, teplizumab…)" aria-label="Rechercher">
-      <div class="filtres">
-        <label class="liste-deroulante">
-          <span>Thème</span>
-          <select id="filtre-theme"></select>
-        </label>
-        <label class="liste-deroulante">
-          <span>Où on en est</span>
-          <select id="filtre-niveau"></select>
-        </label>
-      </div>
-      <button class="effacer" id="effacer" type="button" hidden>✕ Effacer les filtres</button>
+      <div class="chips" id="chips-type" role="group" aria-label="Thème"></div>
+      <div class="chips" id="chips-niveau" role="group" aria-label="Où on en est"></div>
     </section>
 
     <section class="legende" aria-label="Légende">
@@ -53,6 +44,6 @@
     <p class="petit">Fait avec 💜</p>
   </footer>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>
