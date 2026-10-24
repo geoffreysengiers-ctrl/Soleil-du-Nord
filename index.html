@@ -5,9 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Soleil du Nord</title>
   <meta name="description" content="Les avancées de la recherche sur le diabète de type 1, expliquées simplement.">
-  <meta name="color-scheme" content="light dark">
-  <meta name="theme-color" content="#fdf8f5" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#1d1828" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#fdf8f5" id="couleur-barre">
+  <script>
+    // Couleurs selon l'heure : clair de 7h à 20h, sombre la nuit.
+    (function () {
+      function appliquer() {
+        var h = new Date().getHours();
+        var nuit = h < 7 || h >= 20;
+        var r = document.documentElement;
+        r.dataset.theme = nuit ? "nuit" : "jour";
+        r.style.colorScheme = nuit ? "dark" : "light";
+        var m = document.getElementById("couleur-barre");
+        if (m) m.content = nuit ? "#1d1828" : "#fdf8f5";
+      }
+      appliquer();
+      document.addEventListener("DOMContentLoaded", appliquer);
+      setInterval(appliquer, 60000);
+      document.addEventListener("visibilitychange", function () { if (!document.hidden) appliquer(); });
+    })();
+  </script>
 
   <!-- Installable comme une appli -->
   <link rel="manifest" href="manifest.webmanifest">
@@ -21,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=6">
+  <link rel="stylesheet" href="style.css?v=7">
 </head>
 <body>
   <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -67,6 +84,6 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-  <script src="app.js?v=6"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

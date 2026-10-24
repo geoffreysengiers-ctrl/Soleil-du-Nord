@@ -19,9 +19,8 @@
   --opacite-bulles: .55;
 }
 
-/* Mode sombre automatique (suit le réglage du téléphone) */
-@media (prefers-color-scheme: dark) {
-  :root {
+/* Mode nuit : activé selon l'heure (20h-7h), voir le script dans index.html */
+:root[data-theme="nuit"] {
     --fond: #1d1828;
     --texte: #ece6f7;
     --doux: #aba3c4;
@@ -33,10 +32,9 @@
     --tag: #362e4a;
     --encart: #31294a;
     --opacite-bulles: .18;
-  }
-  .nouveau { background: #5a4a12; color: #ffe89a; }
-  .refs a { background: #2c4a3e; color: #bde9d5; }
 }
+:root[data-theme="nuit"] .nouveau { background: #5a4a12; color: #ffe89a; }
+:root[data-theme="nuit"] .refs a { background: #2c4a3e; color: #bde9d5; }
 
 * { box-sizing: border-box; }
 
