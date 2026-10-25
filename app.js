@@ -69,7 +69,10 @@
     if (el) {
       el.classList.remove("non-lu");
       const tag = el.querySelector(".tag.nouveau");
-      if (tag) { tag.classList.add("part"); setTimeout(() => tag.remove(), 600); }
+      if (tag) {
+        tag.classList.add("part");
+        setTimeout(() => { tag.className = "tag lu"; tag.textContent = "✓ Lu"; }, 500);
+      }
     }
     majCompteurs();
   }
@@ -200,7 +203,7 @@
     return `
       <article class="carte${a.importance >= 3 ? " importante" : ""}${neuf ? " non-lu" : ""}" id="${idArticle(a)}">
         <div class="carte-haut">
-          ${neuf ? '<span class="tag nouveau">✨ Nouveau</span>' : ""}
+          ${neuf ? '<span class="tag nouveau">✨ Nouveau</span>' : '<span class="tag lu">✓ Lu</span>'}
           <span class="tag sujet ${SUJETS[sujetDe(a)]}">${esc(sujetDe(a))}${sujetDe(a) === "Diabète" && a.type && a.type !== "Général" ? " · " + esc(a.type) : ""}</span>
           <span class="tag niveau ${niv}">${esc(a.niveau)}</span>
           ${a.categorie ? `<span class="tag">${esc(a.categorie)}</span>` : ""}
