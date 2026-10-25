@@ -34,6 +34,7 @@
     --opacite-bulles: .18;
 }
 :root[data-theme="nuit"] .nouveau { background: #5a4a12; color: #ffe89a; }
+:root[data-theme="nuit"] .carte.non-lu { border-color: #b35d85; box-shadow: 0 10px 30px -14px rgba(255, 120, 170, .35); }
 :root[data-theme="nuit"] .refs a { background: #2c4a3e; color: #bde9d5; }
 
 * { box-sizing: border-box; }
@@ -117,7 +118,31 @@ main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }
 .carte-haut { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 8px; }
 .tag { font-size: .76rem; font-weight: 700; padding: 3px 10px; border-radius: 99px; background: var(--tag); color: var(--doux); }
 .niveau { color: #3d3550; }
-.nouveau { background: var(--citron); color: #8a6d00; }
+.nouveau { background: var(--citron); color: #8a6d00; transition: opacity .5s, transform .5s; }
+.nouveau.part { opacity: 0; transform: scale(.8); }
+
+/* Articles pas encore vus : liseré rose et léger fond rosé, qui s'efface une fois lus */
+.carte { transition: border-color .8s, background-color .8s, box-shadow .8s; }
+.carte.non-lu {
+  border: 2px solid var(--rose);
+  background: linear-gradient(135deg, color-mix(in srgb, var(--rose) 22%, var(--carte)), var(--carte) 60%);
+  box-shadow: 0 10px 30px -14px rgba(255, 120, 170, .45);
+}
+.bulle-nl {
+  min-width: 20px; height: 20px; padding: 0 6px; border-radius: 99px; display: inline-grid; place-items: center;
+  background: #ff8fb8; color: #fff; font-size: .72rem; font-weight: 700;
+}
+.barre-lus {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 6px 12px;
+  margin: -8px 0 16px; font-size: .88rem; color: var(--doux); font-weight: 600;
+}
+.barre-lus[hidden] { display: none; }
+.barre-lus > span { display: inline-flex; align-items: center; gap: 8px; }
+.point-nl { width: 9px; height: 9px; border-radius: 50%; background: #ff8fb8; display: inline-block; }
+#tout-lu {
+  font: inherit; font-size: .84rem; font-weight: 700; color: var(--lavande-fonce); cursor: pointer;
+  background: none; border: none; padding: 4px 0; text-decoration: underline; text-underline-offset: 3px;
+}
 .date { margin-left: auto; font-size: .82rem; color: var(--doux); }
 
 .carte h2 { font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; line-height: 1.25; margin: 0 0 8px; }

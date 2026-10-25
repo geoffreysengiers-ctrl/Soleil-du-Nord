@@ -38,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=8">
+  <link rel="stylesheet" href="style.css?v=9">
 </head>
 <body>
   <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -64,6 +64,9 @@
       <span><i class="pastille disponible"></i>Disponible</span>
     </section>
 
+    <p id="barre-lus" class="barre-lus" hidden><span><i class="point-nl"></i><span id="nb-non-lus"></span></span>
+      <button type="button" id="tout-lu">Tout marquer comme lu</button></p>
+
     <section id="liste" class="liste" aria-live="polite"></section>
     <p id="vide" class="vide" hidden>Rien pour ces filtres… pour l'instant 🌸</p>
   </main>
@@ -85,6 +88,6 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-  <script src="app.js?v=8"></script>
+  <script src="app.js?v=9"></script>
 </body>
 </html>
