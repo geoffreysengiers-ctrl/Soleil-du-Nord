@@ -182,6 +182,7 @@ def publier_sur_site(articles, no_push, dry_run):
     nouveaux, doublons = filtrer_nouveaux(articles, data["articles"])
     for a in nouveaux:
         a["date_ajout"] = date.today().isoformat()
+        a.setdefault("theme", "Diabète")   # anciennes propositions restées en attente
     print(f"Publiés : {len(nouveaux)} | Doublons ignorés : {len(doublons)}")
     for a in nouveaux:
         print("  + " + a["titre"])
@@ -197,7 +198,7 @@ def publier_sur_site(articles, no_push, dry_run):
         print("Fichier écrit (pas de push).")
         return
     git("add", "data/news.json")
-    themes = ", ".join(sorted({a["theme"] for a in nouveaux}))
+    themes = ", ".join(sorted({a.get("theme", "Diabète") for a in nouveaux}))
     git("commit", "-m", f"Veille ({themes}) : {len(nouveaux)} nouvelle(s) avancée(s)")
     git("push", "--quiet")
     print("En ligne ✔ (le site se met à jour en 1 à 2 minutes)")
