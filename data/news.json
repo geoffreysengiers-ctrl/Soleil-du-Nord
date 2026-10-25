@@ -1,13 +1,14 @@
 {
   "meta": {
     "titre": "Soleil du Nord",
-    "sous_titre": "Ce que la recherche sur le diabète de type 1 découvre, partout dans le monde, expliqué simplement.",
+    "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "Ma cocaïne 💗",
     "derniere_maj": "2026-10-24T00:22:00+02:00",
     "exclus": []
   },
   "articles": [
     {
+      "theme": "Diabète",
       "date": "2026-10-21",
       "titre": "Greffe d'îlots : un essai s'ouvre pour la première fois aux personnes avec maladie des reins",
       "resume": "Le 21 octobre 2026, Breakthrough T1D a annoncé le lancement d'un essai (universités de Chicago et de Miami) qui associe une greffe d'îlots de pancréas — les amas de cellules qui fabriquent l'insuline — et un traitement anti-rejet expérimental, le tegoprubart. La première personne transplantée est une personne vivant avec un diabète de type 1 et une maladie rénale chronique : c'est la première fois qu'un essai de greffe d'îlots accepte ce profil de patients, jusqu'ici exclus. L'essai prévoit 10 participants. Dans l'essai précédent du même type, les 12 participants ont arrêté l'insuline externe, et 3 personnes de plus sont en cours d'inclusion.",
@@ -26,6 +27,7 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Diabète",
       "date": "2026-10-15",
       "titre": "Un médicament qui ne vise que les cellules attaquées est testé pour la première fois chez l'humain",
       "resume": "Immunocore, avec l'université de Floride, a annoncé le 15 octobre 2026 qu'un premier patient atteint de diabète de type 1 a reçu un traitement expérimental, IMC-S118AI. Ce médicament (un anticorps de synthèse) est conçu pour freiner uniquement les cellules immunitaires qui attaquent les cellules bêta du pancréas, celles qui fabriquent l'insuline, sans affaiblir tout le système immunitaire. C'est un essai de phase 1 (le tout premier test chez l'humain) : il vérifie d'abord la tolérance, sur 154 participants prévus.",
@@ -45,6 +47,7 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Diabète",
       "date": "2026-10-13",
       "titre": "Un « jumeau numérique » pour prévoir les complications du diabète de type 1",
       "resume": "Des chercheurs du Luxembourg et de France ont présenté à l'EASD 2026 un modèle informatique fondé sur l'intelligence artificielle et construit à partir des données de 2 187 personnes vivant avec un diabète de type 1 (cohorte française SFDT1). Le modèle répartit les personnes en 7 profils de risque de complications (cœur, reins notamment) à partir de 25 données : âge au diagnostic, HbA1c, temps passé dans la cible, tension, tabac… Une interface web permet de visualiser et de simuler l'évolution d'un profil.",
@@ -61,6 +64,7 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Diabète",
       "id": "seed-crc-2026",
       "date": "2026-10-12",
       "date_ajout": "2026-10-21",
@@ -76,6 +80,7 @@
       "importance": 2
     },
     {
+      "theme": "Diabète",
       "date": "2026-10-09",
       "titre": "Greffe d'îlots : une autre maladie auto-immune n'empêche pas la greffe de réussir",
       "resume": "L'équipe de diabétologie du CHU de Lille a présenté, au congrès de la Société française d'endocrinologie (Bordeaux, du 7 au 9 octobre 2026), les résultats de 55 patients ayant reçu une greffe d'îlots de pancréas à Lille entre 2015 et 2025. Quatorze d'entre eux avaient aussi une autre maladie auto-immune (thyroïde, maladie cœliaque, polyarthrite…). Chez la moitié de ces 14 patients, la greffe fonctionnait encore très bien 5 ans après (score d'efficacité élevé). Autrement dit, avoir une deuxième maladie auto-immune ne semble pas empêcher une greffe d'îlots de tenir.",
@@ -92,6 +97,7 @@
       "date_ajout": "2026-10-23"
     },
     {
+      "theme": "Diabète",
       "date": "2026-10-02",
       "titre": "Dépistage : plus de 140 000 enfants testés en Europe, 0,45 % repérés au stade précoce",
       "resume": "Au congrès européen du diabète (EASD 2026, Milan, du 28 septembre au 2 octobre), le programme européen EDENT1FI a présenté les résultats de ses dépistages pilotes menés dans 8 pays : plus de 140 000 enfants et jeunes ont eu une analyse de sang cherchant les auto-anticorps (les anticorps qui s'attaquent aux cellules qui fabriquent l'insuline). 627 d'entre eux, soit 0,45 %, avaient un diabète de type 1 au stade précoce, avant tout symptôme. Conclusion des chercheurs : dépister une classe d'âge entière est réalisable.",
@@ -108,6 +114,7 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Diabète",
       "id": "seed-easd-2026",
       "date": "2026-10-02",
       "date_ajout": "2026-10-21",
@@ -123,6 +130,7 @@
       "importance": 1
     },
     {
+      "theme": "Diabète",
       "date": "2026-07-14",
       "titre": "Belgique : combiner deux traitements protège mieux les cellules qui fabriquent l'insuline",
       "resume": "Une équipe internationale menée par la VUB, l'hôpital universitaire de Bruxelles (UZ Brussel) et l'université de Louvain (KU Leuven) a testé, chez des souris génétiquement prédisposées au diabète de type 1, l'association de deux traitements expérimentaux : l'anti-CD3, qui calme l'attaque du système immunitaire, et le GLP1-E2, qui rend les cellules bêta (celles qui produisent l'insuline) plus résistantes au stress. À 30 semaines, 77 % des souris non traitées avaient développé un diabète, contre 66 % avec l'anti-CD3 seul et 61 % avec le GLP1-E2 seul — mais seulement 38 % avec l'association des deux. Les résultats sont publiés dans la revue Diabetologia.",
@@ -142,6 +150,7 @@
       "date_ajout": "2026-10-23"
     },
     {
+      "theme": "Diabète",
       "date": "2026-03-25",
       "titre": "Greffe d'îlots : un gène pour savoir à l'avance si la greffe va bien tenir",
       "resume": "L'équipe du Pr Julie Kerr-Conte (CHU de Lille, Inserm, Institut Pasteur de Lille) a montré qu'un gène, NKX6.1, permet de prévoir la réussite d'une greffe d'îlots de pancréas. Le gène a été mesuré dans 114 préparations d'îlots et confronté aux résultats de 34 patients greffés : plus il est exprimé, meilleures sont la fonction de la greffe et sa durée (taux de succès à 10 ans), indépendamment de la quantité d'îlots greffés. Le résultat a été retrouvé dans un groupe indépendant de 9 patients. Ce test de laboratoire pourrait être ajouté aux contrôles faits avant une greffe. Travail publié dans Science Translational Medicine le 25 mars 2026.",
@@ -161,6 +170,7 @@
       "date_ajout": "2026-10-23"
     },
     {
+      "theme": "Diabète",
       "date": "2026-03-03",
       "titre": "Belgique : le fer, ingrédient indispensable pour que les cellules bêta deviennent adultes",
       "resume": "Une équipe de la VUB et de l'hôpital universitaire de Bruxelles (UZ Brussel) a montré que les jeunes cellules bêta du pancréas (celles qui produisent l'insuline) ont un très grand besoin de fer pour devenir adultes et fonctionnelles : pendant leur croissance, elles « ouvrent grand » une porte d'entrée au fer. Quand cette entrée était bloquée, les cellules ne parvenaient pas à mûrir et mouraient ; à l'inverse, les cellules adultes résistaient bien à un manque temporaire de fer. Le travail est publié dans Nature Communications.",

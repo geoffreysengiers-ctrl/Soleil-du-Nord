@@ -2,8 +2,8 @@
 // Stratégie « réseau d'abord » : on affiche toujours la dernière version en ligne
 // (nouveaux articles d'Hermès, nouvelles modifs du site), et la copie gardée
 // sert seulement quand il n'y a pas de connexion.
-const CACHE = "soleil-du-nord-v7";
-const COQUILLE = ["./", "index.html", "style.css?v=7", "app.js?v=7", "manifest.webmanifest",
+const CACHE = "soleil-du-nord-v8";
+const COQUILLE = ["./", "index.html", "style.css?v=8", "app.js?v=8", "manifest.webmanifest",
                   "data/news.json", "data/citations.json", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {

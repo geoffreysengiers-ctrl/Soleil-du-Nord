@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Soleil du Nord</title>
-  <meta name="description" content="Les avancées de la recherche sur le diabète de type 1, expliquées simplement.">
+  <meta name="description" content="Les avancées de la recherche (diabète, épilepsie, encéphalite auto-immune, insuffisance ovarienne précoce, maturation in vitro), expliquées simplement.">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#fdf8f5" id="couleur-barre">
   <script>
@@ -38,7 +38,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=7">
+  <link rel="stylesheet" href="style.css?v=8">
 </head>
 <body>
   <div class="blobs" aria-hidden="true"><span></span><span></span><span></span></div>
@@ -52,7 +52,8 @@
   <main>
     <section class="outils" aria-label="Filtres">
       <input type="search" id="recherche" placeholder="Recherche" aria-label="Rechercher">
-      <div class="chips" id="chips-type" role="group" aria-label="Thème"></div>
+      <div class="chips sujets" id="chips-sujet" role="group" aria-label="Thème"></div>
+      <div class="chips" id="chips-type" role="group" aria-label="Catégorie"></div>
       <div class="chips" id="chips-niveau" role="group" aria-label="Où on en est"></div>
     </section>
 
@@ -68,7 +69,7 @@
   </main>
 
   <footer>
-    <p>Ces articles sont rassemblés automatiquement pour informer, pas pour soigner. Avant de changer quoi que ce soit à un traitement, on en parle d'abord à son diabétologue.</p>
+    <p>Ces articles sont rassemblés automatiquement pour informer, pas pour soigner. Avant de changer quoi que ce soit à un traitement, on en parle d'abord à son médecin.</p>
     <p class="petit">Fait avec 💜</p>
   </footer>
 
@@ -84,6 +85,6 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

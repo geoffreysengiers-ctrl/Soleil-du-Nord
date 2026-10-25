@@ -1,27 +1,28 @@
 #!/usr/bin/env python3
 """
-Veille T1D -> site "Les petites avancées".
+Veille santé -> site "Soleil du Nord" (5 thèmes, voir THEMES).
 
 Avec validation (recommandé) :
-  python3 hermes/add_news.py proposer /tmp/veille_t1d.json   # met en attente + affiche la liste numérotée
+  python3 hermes/add_news.py proposer /tmp/veille.json       # met en attente + affiche la liste numérotée
   python3 hermes/add_news.py liste                           # revoir ce qui attend
   python3 hermes/add_news.py publier 1,3                     # publie les n°1 et 3 (ou "tout")
   python3 hermes/add_news.py rejeter 2                       # écarte le n°2 (ou "tout"), il ne reviendra plus
 
 Sans validation :
-  python3 hermes/add_news.py direct /tmp/veille_t1d.json     # publie tout de suite
+  python3 hermes/add_news.py direct /tmp/veille.json         # publie tout de suite
 
 Options : --no-push (écrit sans git push), --dry-run (vérifie seulement)
 
 Format d'une avancée (liste JSON) :
 {
+  "theme": "Diabète",                   # voir THEMES (obligatoire)
   "date": "2026-10-20",                 # date de publication de la source (AAAA-MM-JJ)
   "titre": "...",                       # court, français, sans jargon
   "resume": "...",                      # 2 à 4 phrases simples
   "pourquoi": "...",                    # (optionnel) ce que ça change concrètement
   "categorie": "Cellules souches",      # voir CATEGORIES
   "niveau": "Essai clinique",           # voir NIVEAUX
-  "type": "Type 1",                     # (optionnel, Type 1 par défaut)
+  "type": "Type 1",                     # (diabète seulement, Type 1 par défaut)
   "pays": "États-Unis",                 # (optionnel)
   "source_nom": "NEJM",
   "source_url": "https://...",
@@ -45,11 +46,14 @@ FICHIER = RACINE / "data" / "news.json"
 ATTENTE = RACINE / "hermes" / ".en_attente.json"   # reste sur le VPS (.gitignore)
 REJETES = RACINE / "hermes" / ".rejetes.json"
 
-TYPES = {"Type 1", "Type 2", "Général"}
+THEMES = {"Diabète", "Épilepsie", "Encéphalite auto-immune",
+          "Insuffisance ovarienne précoce", "Maturation in vitro"}
+TYPES = {"Type 1", "Type 2", "Général"}   # sous-type, uniquement pour le thème Diabète
 NIVEAUX = {"Recherche", "Essai clinique", "Approuvé", "Disponible"}
-CATEGORIES = {"Cellules souches", "Immunothérapie", "Technologie", "Traitement",
-              "Dépistage & prévention", "Complications", "Recherche", "Quotidien"}
-OBLIGATOIRES = ["date", "titre", "resume", "categorie", "niveau", "source_nom", "source_url"]
+CATEGORIES = {"Traitement", "Immunothérapie", "Cellules souches", "Thérapie génique", "Chirurgie",
+              "Technologie", "Fertilité", "Diagnostic", "Dépistage & prévention", "Complications",
+              "Recherche", "Quotidien"}
+OBLIGATOIRES = ["theme", "date", "titre", "resume", "categorie", "niveau", "source_nom", "source_url"]
 REF_OK = re.compile(r"^(NCT\d{8}|PMID:\d{5,9}|DOI:10\.\d{4,9}/\S+)$", re.I)
 
 
@@ -84,9 +88,15 @@ def valider(a, i):
     for c in OBLIGATOIRES:
         if not str(a.get(c, "")).strip():
             err.append(f"#{i}: champ manquant '{c}'")
-    a.setdefault("type", "Type 1")
-    if a["type"] not in TYPES:
-        err.append(f"#{i}: type '{a['type']}' invalide ({', '.join(sorted(TYPES))})")
+    th = a.get("theme")
+    if th and th not in THEMES:
+        err.append(f"#{i}: theme '{th}' invalide ({' | '.join(sorted(THEMES))})")
+    if th == "Diabète":
+        a.setdefault("type", "Type 1")
+        if a["type"] not in TYPES:
+            err.append(f"#{i}: type '{a['type']}' invalide ({', '.join(sorted(TYPES))})")
+    elif "type" in a:
+        err.append(f"#{i}: 'type' ne sert que pour le thème Diabète, retire-le")
     if a.get("niveau") and a["niveau"] not in NIVEAUX:
         err.append(f"#{i}: niveau '{a['niveau']}' invalide ({', '.join(sorted(NIVEAUX))})")
     if a.get("categorie") and a["categorie"] not in CATEGORIES:
@@ -161,7 +171,7 @@ def afficher_attente(attente):
     for i, a in enumerate(attente, 1):
         etoiles = "★" * a.get("importance", 1)
         refs = ", ".join(a.get("references", [])) or "aucune"
-        print(f"{i}. [{a['niveau']}] {a['titre']} {etoiles}\n   {a['source_nom']} ({a['date']}) — réf : {refs}\n   {a['source_url']}\n")
+        print(f"{i}. [{a.get('theme', 'Diabète')} · {a['niveau']}] {a['titre']} {etoiles}\n   {a['source_nom']} ({a['date']}) — réf : {refs}\n   {a['source_url']}\n")
     print('Répondre « publie 1,3 », « publie tout », « rejette 2 »…')
 
 
@@ -187,14 +197,15 @@ def publier_sur_site(articles, no_push, dry_run):
         print("Fichier écrit (pas de push).")
         return
     git("add", "data/news.json")
-    git("commit", "-m", f"Veille T1D : {len(nouveaux)} nouvelle(s) avancée(s)")
+    themes = ", ".join(sorted({a["theme"] for a in nouveaux}))
+    git("commit", "-m", f"Veille ({themes}) : {len(nouveaux)} nouvelle(s) avancée(s)")
     git("push", "--quiet")
     print("En ligne ✔ (le site se met à jour en 1 à 2 minutes)")
 
 
 # ---------- commandes ----------
 def main():
-    p = argparse.ArgumentParser(description="Veille T1D -> site")
+    p = argparse.ArgumentParser(description="Veille santé -> site")
     p.add_argument("commande", choices=["proposer", "liste", "publier", "rejeter", "direct"])
     p.add_argument("arg", nargs="?", help="fichier JSON (proposer/direct) ou numéros (publier/rejeter)")
     p.add_argument("--no-push", action="store_true")

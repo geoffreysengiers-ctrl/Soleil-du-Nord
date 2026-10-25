@@ -82,6 +82,20 @@ main { max-width: 860px; margin: 0 auto; padding: 0 16px 40px; }
 .chip[aria-pressed="true"] { background: var(--lavande); color: #fff; box-shadow: none; }
 .chip { flex: none; white-space: nowrap; }
 
+/* Les 5 thèmes : chacun sa couleur */
+.chips.sujets .chip { display: inline-flex; align-items: center; gap: 7px; font-size: .95rem; padding: 9px 16px; }
+.chips.sujets .chip[aria-pressed="true"] { background: var(--lavande-fonce); }
+.chips.sujets .chip[aria-pressed="true"] .rond { box-shadow: 0 0 0 2px #fff; }
+.compte { font-size: .75rem; font-weight: 700; opacity: .7; }
+.rond { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
+.rond.diabete, .tag.sujet.diabete { background: var(--lavande); }
+.rond.epilepsie, .tag.sujet.epilepsie { background: var(--ciel); }
+.rond.encephalite, .tag.sujet.encephalite { background: var(--menthe); }
+.rond.iop, .tag.sujet.iop { background: var(--rose); }
+.rond.miv, .tag.sujet.miv { background: var(--peche); }
+.tag.sujet { color: #3d3550; }
+.chips[hidden] { display: none; }
+
 .legende { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: .82rem; color: var(--doux); margin: 4px 0 20px; }
 .legende span { display: inline-flex; align-items: center; gap: 6px; }
 .pastille { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }

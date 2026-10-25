@@ -6,11 +6,22 @@
     "Approuvé": "approuve",
     "Disponible": "disponible",
   };
-  const THEMES = ["Tout voir", "Cellules souches", "Immunothérapie", "Technologie", "Traitement",
-                  "Dépistage & prévention", "Complications", "Recherche", "Quotidien"];
+  // Les grands sujets suivis par Hermès (un article sans "theme" = Diabète, pour les anciens)
+  const SUJETS = {
+    "Diabète": "diabete",
+    "Épilepsie": "epilepsie",
+    "Encéphalite auto-immune": "encephalite",
+    "Insuffisance ovarienne précoce": "iop",
+    "Maturation in vitro": "miv",
+  };
+  const CATEGORIES = ["Tout voir", "Traitement", "Immunothérapie", "Cellules souches", "Thérapie génique",
+                      "Chirurgie", "Technologie", "Fertilité", "Diagnostic", "Dépistage & prévention",
+                      "Complications", "Recherche", "Quotidien"];
   const PAR_PAGE = 20;
+  const sujetDe = (a) => (a.theme && SUJETS[a.theme]) ? a.theme : "Diabète";
 
-  const etat = { theme: "Tout voir", niveau: "Tout", q: "", affiches: PAR_PAGE };
+  const etat = { sujet: "Tous", theme: "Tout voir", niveau: "Tout", q: "", affiches: PAR_PAGE };
+  try { const s = localStorage.getItem("sujet"); if (s && (s === "Tous" || SUJETS[s])) etat.sujet = s; } catch (_) {}
   let articles = [];
 
   const $ = (id) => document.getElementById(id);
@@ -42,9 +53,12 @@
   }
 
   /* ---------- Filtres en pastilles ---------- */
-  function chips(conteneur, valeurs, cle) {
+  function dessinerChips(conteneur, valeurs, cle, etiquette) {
     conteneur.innerHTML = valeurs.map((v) =>
-      `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${etat[cle] === v}">${esc(v)}</button>`).join("");
+      `<button class="chip" type="button" data-v="${esc(v)}" aria-pressed="${etat[cle] === v}">${etiquette ? etiquette(v) : esc(v)}</button>`).join("");
+  }
+  function chips(conteneur, valeurs, cle, etiquette, apres) {
+    dessinerChips(conteneur, valeurs, cle, etiquette);
     conteneur.addEventListener("click", (e) => {
       const b = e.target.closest(".chip");
       if (!b) return;
@@ -53,17 +67,40 @@
       conteneur.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === b));
       // Sur téléphone, la pastille choisie se recentre dans la ligne qui défile
       b.scrollIntoView({ behavior: "smooth", block: "nearest", inline: "center" });
+      if (apres) apres();
       rendre();
     });
+  }
+
+  // Pastille d'un sujet : petit rond de couleur + nom + nombre d'articles
+  function etiquetteSujet(v) {
+    const n = v === "Tous" ? articles.length : articles.filter((a) => sujetDe(a) === v).length;
+    const rond = v === "Tous" ? "" : `<i class="rond ${SUJETS[v]}"></i>`;
+    return `${rond}${esc(v)} <span class="compte">${n}</span>`;
+  }
+
+  // Les catégories proposées dépendent du sujet choisi
+  function majCategories() {
+    const presents = new Set(articles.filter((a) => etat.sujet === "Tous" || sujetDe(a) === etat.sujet).map((a) => a.categorie));
+    const valeurs = CATEGORIES.filter((t) => t === "Tout voir" || presents.has(t));
+    if (!valeurs.includes(etat.theme)) etat.theme = "Tout voir";
+    dessinerChips($("chips-type"), valeurs, "theme");
+    $("chips-type").hidden = valeurs.length <= 2;
+  }
+
+  function choisirSujet() {
+    try { localStorage.setItem("sujet", etat.sujet); } catch (_) {}
+    majCategories();
   }
 
   function filtrer() {
     const q = sansAccent(etat.q);
     return articles.filter((a) => {
+      if (etat.sujet !== "Tous" && sujetDe(a) !== etat.sujet) return false;
       if (etat.theme !== "Tout voir" && a.categorie !== etat.theme) return false;
       if (etat.niveau !== "Tout" && a.niveau !== etat.niveau) return false;
       if (q) {
-        const texte = sansAccent([a.titre, a.resume, a.pourquoi, a.pays, a.categorie, a.source_nom, (a.references || []).join(" ")].join(" "));
+        const texte = sansAccent([sujetDe(a), a.titre, a.resume, a.pourquoi, a.pays, a.categorie, a.source_nom, (a.references || []).join(" ")].join(" "));
         if (!texte.includes(q)) return false;
       }
       return true;
@@ -89,8 +126,8 @@
       <article class="carte${a.importance >= 3 ? " importante" : ""}" id="${idArticle(a)}">
         <div class="carte-haut">
           ${neuf ? '<span class="tag nouveau">✨ Nouveau</span>' : ""}
+          <span class="tag sujet ${SUJETS[sujetDe(a)]}">${esc(sujetDe(a))}${sujetDe(a) === "Diabète" && a.type && a.type !== "Général" ? " · " + esc(a.type) : ""}</span>
           <span class="tag niveau ${niv}">${esc(a.niveau)}</span>
-          ${a.type && a.type !== "Type 1" ? `<span class="tag">${esc(a.type)}</span>` : ""}
           ${a.categorie ? `<span class="tag">${esc(a.categorie)}</span>` : ""}
           ${a.pays ? `<span class="tag">📍 ${esc(a.pays)}</span>` : ""}
           <span class="date">${dateFr(a.date)}</span>
@@ -134,6 +171,9 @@
     $("liste").innerHTML = visibles.map(carte).join("") +
       (res.length > visibles.length ? `<button class="chip plus" id="plus" type="button">Voir plus (${res.length - visibles.length})</button>` : "");
     $("vide").hidden = res.length > 0;
+    $("vide").textContent = (etat.sujet !== "Tous" && !articles.some((a) => sujetDe(a) === etat.sujet))
+      ? "Hermès commence tout juste sa veille sur ce thème… les premières avancées arrivent bientôt 🌸"
+      : "Rien pour ces filtres… pour l'instant 🌸";
     const plus = $("plus");
     if (plus) plus.onclick = () => { etat.affiches += PAR_PAGE; rendre(); };
   }
@@ -144,7 +184,16 @@
     if (!id) return;
     const rang = articles.findIndex((a) => idArticle(a) === id);
     if (rang < 0) return;
-    if (rang >= etat.affiches) { etat.affiches = rang + 1; rendre(); }
+    // On enlève les filtres pour être sûr que la carte soit visible
+    if (filtrer().indexOf(articles[rang]) < 0) {
+      etat.sujet = "Tous"; etat.theme = "Tout voir"; etat.niveau = "Tout"; etat.q = ""; $("recherche").value = "";
+      document.querySelectorAll("#chips-sujet .chip, #chips-niveau .chip").forEach((c) =>
+        c.setAttribute("aria-pressed", c.dataset.v === "Tous" || c.dataset.v === "Tout"));
+      majCategories();
+    }
+    const rangVisible = filtrer().indexOf(articles[rang]);
+    if (rangVisible >= etat.affiches) { etat.affiches = rangVisible + 1; }
+    rendre();
     const el = $(id);
     if (!el) return;
     el.classList.add("eclaire");
@@ -211,8 +260,11 @@
       articles = (data.articles || []).slice().sort((a, b) =>
         (b.date || "").localeCompare(a.date || "") || (b.importance || 0) - (a.importance || 0));
 
-      const presents = new Set(articles.map((a) => a.categorie));
-      chips($("chips-type"), THEMES.filter((t) => t === "Tout voir" || presents.has(t)), "theme");
+      chips($("chips-sujet"), ["Tous", ...Object.keys(SUJETS)], "sujet", etiquetteSujet, choisirSujet);
+      chips($("chips-type"), [], "theme");
+      majCategories();
+      const actif = document.querySelector('#chips-sujet .chip[aria-pressed="true"]');
+      if (actif) actif.scrollIntoView({ block: "nearest", inline: "center" });
       chips($("chips-niveau"), ["Tout", ...Object.keys(NIVEAUX)], "niveau");
       $("recherche").addEventListener("input", (e) => { etat.q = e.target.value; etat.affiches = PAR_PAGE; rendre(); });
       rendre();

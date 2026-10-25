@@ -1,6 +1,6 @@
 # Les petites avancées
 
-Site pastel qui présente les avancées de la recherche sur le diabète de type 1, alimenté par l'agent **HERMES T1D** (VPS Hostinger).
+Site pastel qui présente les avancées de la recherche sur 5 thèmes (diabète, épilepsie, encéphalite auto-immune, insuffisance ovarienne précoce, maturation in vitro), alimenté par l'agent **Hermès** (VPS Hostinger). On filtre par thème en haut de la page.
 Hébergé gratuitement sur GitHub Pages.
 
 **Circuit :** Hermès fait sa veille → il vérifie ses sources → il te propose les avancées sur Telegram → tu réponds « publie 1,3 » → il pousse sur GitHub → le site se met à jour en 1 à 2 minutes.
