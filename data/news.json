@@ -3,7 +3,7 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "Ma cocaïne 💗",
-    "derniere_maj": "2026-10-24T00:22:00+02:00",
+    "derniere_maj": "2026-10-25T16:19:05+01:00",
     "exclus": []
   },
   "articles": [
@@ -130,6 +130,80 @@
       "importance": 1
     },
     {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-25",
+      "titre": "Encéphalite anti-NMDAR qui rechute : moins de crises avec l'ofatumumab",
+      "resume": "Une étude chinoise publiée le 25 septembre 2026 a suivi pendant 24 mois 76 personnes ayant une encéphalite anti-NMDAR qui rechute. Trente-huit ont reçu de l'ofatumumab, un anticorps qui élimine certaines cellules fabriquant les anticorps, et 38 ont reçu d'autres traitements. Dès 6 mois, le groupe traité avait de meilleurs résultats concernant les crises (63 % de résultats favorables contre 37 %). L'étude est observationnelle (les patients n'ont pas été tirés au sort).",
+      "pourquoi": "Pour les formes qui rechutent, une piste plus ciblée sur les anticorps — mais il faudra un essai avec tirage au sort pour être sûr du bénéfice.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "Annals of Clinical and Translational Neurology",
+      "source_url": "https://doi.org/10.1002/acn3.70537",
+      "references": [
+        "PMID:42788399",
+        "DOI:10.1002/acn3.70537"
+      ],
+      "importance": 2,
+      "id": "ec24f881e832",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-09-15",
+      "titre": "Insuffisance ovarienne précoce : un essai tiré au sort de la finérénone va démarrer",
+      "resume": "Un essai de phase 2 est enregistré pour démarrer le 15 septembre 2026 à l'hôpital universitaire de Hong Kong-Shenzhen : 46 femmes atteintes d'insuffisance ovarienne précoce y recevront, au hasard, de la finérénone ou un placebo. C'est le premier essai contrôlé de ce médicament dans cette maladie, après les résultats de laboratoire publiés dans Science.",
+      "pourquoi": "C'est l'étape qui dira si la piste se confirme chez la femme — les résultats demanderont plusieurs années.",
+      "categorie": "Fertilité",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "ClinicalTrials.gov (registre officiel des essais)",
+      "source_url": "https://clinicaltrials.gov/study/NCT07815509",
+      "references": [
+        "NCT07815509"
+      ],
+      "importance": 2,
+      "id": "b2fc31bc9c0f",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-08-18",
+      "titre": "Insuffisance ovarienne précoce : un traitement hormonal long demandé par deux sociétés",
+      "resume": "Dans un texte commun publié le 18 août 2026, la FIGO (fédération internationale de gynécologie-obstétrique) et l'IMS (société internationale de la ménopause) demandent que l'insuffisance ovarienne précoce et la ménopause précoce ne soient plus gérées comme une ménopause ordinaire. Elles recommandent un traitement hormonal de remplacement commencé tôt, à dose suffisante et poursuivi longtemps, jusqu'à l'âge habituel de la ménopause, afin de protéger le cœur, les os et le cerveau.",
+      "pourquoi": "Un message important pour les femmes concernées et leurs médecins : ces deux sociétés considèrent le traitement hormonal comme une prévention au long cours. Ce n'est pas un conseil individuel, la décision revient au médecin.",
+      "categorie": "Traitement",
+      "niveau": "Recherche",
+      "pays": "International",
+      "source_nom": "Climacteric (recommandation FIGO et IMS)",
+      "source_url": "https://doi.org/10.1080/13697137.2026.2691828",
+      "references": [
+        "PMID:42610218",
+        "DOI:10.1080/13697137.2026.2691828"
+      ],
+      "importance": 2,
+      "id": "4fa3aa717a8a",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-07-20",
+      "titre": "Épilepsies sévères de l'enfant : deux grands essais de phase 3 attendent leurs résultats",
+      "resume": "Le laboratoire Lundbeck a annoncé le 20 juillet 2026 que le dernier participant a été inclus dans DEEp OCEAN, un essai de phase 3 international qui teste le béxicasérine chez 367 enfants et adultes atteints d'encéphalopathies épileptiques et développementales (des épilepsies graves apparaissant dans l'enfance, dont le syndrome de Dravet et le syndrome de Lennox-Gastaut). Un second essai du même programme porte plus précisément sur le syndrome de Dravet. Les résultats principaux du premier sont attendus fin 2026 ou début 2027.",
+      "pourquoi": "S'ils confirment les signaux encourageants déjà rapportés, ces résultats pourraient ajouter une option dans des épilepsies très difficiles — mais on ne les connaît pas encore.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "Danemark",
+      "source_nom": "H. Lundbeck A/S (communiqué de presse)",
+      "source_url": "https://www.prnewswire.com/news-releases/lundbeck-announces-last-patient-randomized-in-deep-ocean-a-large-phase-iii-trial-in-developmental-and-epileptic-encephalopathies-dees-302829436.html",
+      "references": [
+        "NCT06719141"
+      ],
+      "importance": 1,
+      "id": "4392969712a2",
+      "date_ajout": "2026-10-25"
+    },
+    {
       "theme": "Diabète",
       "date": "2026-07-14",
       "titre": "Belgique : combiner deux traitements protège mieux les cellules qui fabriquent l'insuline",
@@ -148,6 +222,62 @@
       "type": "Type 1",
       "id": "e5354c63ab1e",
       "date_ajout": "2026-10-23"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-05-28",
+      "titre": "Encéphalite auto-immune : un essai tiré au sort teste deux immunothérapies associées",
+      "resume": "Le protocole de l'essai RADIA a été publié le 28 mai 2026. Deux cents patients atteints d'encéphalite auto-immune (principalement anti-NMDAR) seront répartis au hasard entre un traitement habituel, l'association de deux anticorps qui suppriment les cellules fabriquant les anticorps (ofatumumab et daratumumab), et des perfusions répétées d'immunoglobulines. L'essai se déroule dans plusieurs hôpitaux chinois et recrute actuellement.",
+      "pourquoi": "C'est exactement le type d'essai qui manque pour savoir si les traitements de deuxième ligne font vraiment mieux que le traitement standard, aujourd'hui choisis surtout selon l'expérience des équipes.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "Frontiers in Neurology (protocole d'essai)",
+      "source_url": "https://www.frontiersin.org/journals/neurology/articles/10.3389/fneur.2026.1783651/full",
+      "references": [
+        "NCT06867991"
+      ],
+      "importance": 1,
+      "id": "3574e3ae5c76",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-04-01",
+      "titre": "Maturation in vitro : le point sur les progrès d'une technique longtemps délaissée",
+      "resume": "Une revue publiée en avril 2026 dans JBRA Assisted Reproduction fait le point sur la maturation in vitro (MIV) : au lieu d'une forte stimulation hormonale, on prélève des ovocytes immatures et on les laisse mûrir au laboratoire. La revue décrit les systèmes de culture « CAPA » (maturation en deux temps) qui améliorent les taux de maturation, les recherches utilisant des cellules de soutien de l'ovaire, et rappelle que la MIV reste moins efficace que la FIV classique en taux de naissance par cycle, mais provoque beaucoup moins d'hyperstimulation ovarienne.",
+      "pourquoi": "Utile pour comprendre où en est une technique plus douce pour le corps, en particulier quand une stimulation hormonale est risquée ; ce n'est pas une technique proposée partout.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "Brésil",
+      "source_nom": "JBRA Assisted Reproduction (revue de synthèse)",
+      "source_url": "https://doi.org/10.5935/1518-0557.20250177",
+      "references": [
+        "PMID:41757835",
+        "DOI:10.5935/1518-0557.20250177"
+      ],
+      "importance": 1,
+      "id": "cbbd12503a8f",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-03-28",
+      "titre": "Épilepsie résistante aux médicaments : la stimulation cérébrale profonde confirmée",
+      "resume": "L'étude FRANCE, menée dans 14 centres français, a comparé chez 61 adultes ayant une épilepsie résistante aux médicaments (après échec d'un stimulateur du nerf vague) la stimulation cérébrale profonde du thalamus au traitement médicamenteux seul. À 12 mois, la baisse médiane de la fréquence des crises sévères était de 44 % dans le groupe stimulé, contre 6 % avec les médicaments seuls. Les résultats sont publiés dans la revue Epilepsia.",
+      "pourquoi": "Une preuve de bon niveau, obtenue en France, que cette stimulation aide quand les médicaments ne suffisent plus — elle reste réservée aux formes les plus sévères et nécessite une chirurgie pour poser l'implant.",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "France",
+      "source_nom": "Epilepsia (essai FRANCE)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13360963/",
+      "references": [
+        "PMID:41902639",
+        "DOI:10.1002/epi.70211"
+      ],
+      "importance": 2,
+      "id": "e207b687243f",
+      "date_ajout": "2026-10-25"
     },
     {
       "theme": "Diabète",
@@ -188,6 +318,44 @@
       "type": "Type 1",
       "id": "ad7d8a464964",
       "date_ajout": "2026-10-23"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-02-02",
+      "titre": "PRP dans l'ovaire : des preuves trop faibles et une sécurité non démontrée",
+      "resume": "Une mise au point publiée le 2 février 2026 dans la revue F&S Reports fait le point sur les injections de PRP (plasma enrichi en plaquettes, préparé à partir du sang de la patiente) dans les ovaires, souvent présentées comme un moyen de « rajeunir » l'ovaire. Les auteurs concluent que les preuves d'efficacité restent faibles, les essais tirés au sort montrant des effets bien plus modestes que les premières observations, et que les données de sécurité manquent.",
+      "pourquoi": "Utile pour se protéger des promesses commerciales : aujourd'hui, cette technique ne peut pas être présentée comme un traitement de l'insuffisance ovarienne précoce.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "États-Unis",
+      "source_nom": "F&S Reports",
+      "source_url": "https://doi.org/10.1016/j.xfre.2026.01.005",
+      "references": [
+        "PMID:42027666",
+        "DOI:10.1016/j.xfre.2026.01.005"
+      ],
+      "importance": 1,
+      "id": "029e5114abba",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-01-01",
+      "titre": "Maturation in vitro : première naissance après maturation d'ovocytes du tissu ovarien",
+      "resume": "Une équipe japonaise rapporte la première naissance au monde après maturation in vitro (MIV) d'ovocytes prélevés directement dans le tissu de l'ovaire, chez une femme atteinte d'une fibromatose ovarienne bilatérale (un durcissement des deux ovaires) qui rendait impossible une ponction classique. Lors d'un second cycle, 7 ovocytes immatures ont été prélevés, 3 sont arrivés à maturité, 2 ont été fécondés et un embryon a donné une naissance à 39 semaines de grossesse. Une maturation « en deux temps » avec dbcAMP a été utilisée. Travail publié dans Reproductive Medicine and Biology.",
+      "pourquoi": "Une voie possible pour des femmes dont les ovaires ne permettent pas une FIV classique — mais il s'agit d'un cas unique, donc pas d'une technique établie.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "Japon",
+      "source_nom": "Reproductive Medicine and Biology",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12977298/",
+      "references": [
+        "PMID:41822916",
+        "DOI:10.1002/rmb2.70024"
+      ],
+      "importance": 1,
+      "id": "1ec70d7ec385",
+      "date_ajout": "2026-10-25"
     }
   ]
 }
