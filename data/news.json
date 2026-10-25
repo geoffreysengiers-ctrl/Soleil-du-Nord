@@ -3,7 +3,7 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "💗",
-    "derniere_maj": "2026-10-25T16:19:05+01:00",
+    "derniere_maj": "2026-10-25T16:22:30+01:00",
     "exclus": []
   },
   "articles": [
@@ -149,6 +149,22 @@
       "date_ajout": "2026-10-25"
     },
     {
+      "theme": "Épilepsie",
+      "date": "2026-09-17",
+      "titre": "Épilepsie focale : un antiépileptique d'un nouveau type déposé auprès de la FDA",
+      "resume": "Annonce de l'entreprise Xenon Pharmaceuticals : ces données ne font pas encore l'objet d'une publication scientifique. Le laboratoire a déposé le 17 septembre 2026 une demande d'autorisation (NDA) auprès de l'agence américaine du médicament (FDA) pour l'azétukalner, un antiépileptique d'un nouveau type, qui agit en ouvrant les canaux potassiques KCNQ2/3. Selon la société, le dossier s'appuie sur deux essais contrôlés contre placebo (X-TOLE et X-TOLE2) : les quatre doses testées ont réduit de façon statistiquement significative la fréquence mensuelle des crises chez des adultes ayant des crises focales, la forme la plus fréquente d'épilepsie, avec une tolérance décrite comme correcte. La FDA doit maintenant évaluer le dossier : ce n'est pas encore une autorisation.",
+      "pourquoi": "Un mécanisme vraiment nouveau pour les crises focales, qui touchent le plus grand nombre — mais tout repose sur les résultats rapportés par le laboratoire en attendant l'examen de la FDA.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "Canada / États-Unis",
+      "source_nom": "Xenon Pharmaceuticals (communiqué de presse)",
+      "source_url": "https://investor.xenon-pharma.com/news-releases/news-release-details/xenon-announces-azetukalner-nda-submission-fda-focal-seizures",
+      "references": [],
+      "importance": 2,
+      "id": "7a1432c81708",
+      "date_ajout": "2026-10-25"
+    },
+    {
       "theme": "Insuffisance ovarienne précoce",
       "date": "2026-09-15",
       "titre": "Insuffisance ovarienne précoce : un essai tiré au sort de la finérénone va démarrer",
@@ -164,6 +180,22 @@
       ],
       "importance": 2,
       "id": "b2fc31bc9c0f",
+      "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-09-08",
+      "titre": "Dravet : une thérapie génique administrée une seule fois réduit fortement les crises",
+      "resume": "Annonce de l'entreprise Encoded Therapeutics, présentée le 8 septembre 2026 au congrès européen d'épilepsie à Athènes : aucun article scientifique n'est encore publié sur ces résultats. Selon la société, dans l'essai de phase 1/2 POLARIS qui teste ETX101, une thérapie génique administrée une seule fois, chez des enfants atteints du syndrome de Dravet (une épilepsie génétique sévère liée au gène SCN1A), la fréquence mensuelle des crises a baissé d'environ 76 % (5 enfants, dose 3) et 60 % (9 enfants, dose 4). Parmi ceux suivis pendant un an, la baisse atteindrait environ 79 % et 89 %. La société rapporte aussi des progrès de la communication et de la motricité, et aucun effet indésirable grave lié au traitement jusqu'à 117 semaines de suivi.",
+      "pourquoi": "Une seule administration qui protégerait durablement : c'est une piste forte pour une épilepsie très difficile à traiter, mais l'essai reste petit, les chiffres viennent de l'entreprise et rien n'est publié, donc rien de disponible aujourd'hui.",
+      "categorie": "Thérapie génique",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis / Australie",
+      "source_nom": "Encoded Therapeutics (communiqué), congrès européen d'épilepsie",
+      "source_url": "https://www.businesswire.com/news/home/20260908732226/en/Encoded-Therapeutics-Presents-Updated-Data-from-POLARIS-Phase-12-Trials-of-ETX101-Gene-Therapy-in-Dravet-Syndrome-at-the-16th-European-Epilepsy-Congress",
+      "references": [],
+      "importance": 2,
+      "id": "f1f874e872e6",
       "date_ajout": "2026-10-25"
     },
     {
@@ -222,6 +254,25 @@
       "type": "Type 1",
       "id": "e5354c63ab1e",
       "date_ajout": "2026-10-23"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-06-15",
+      "titre": "Encéphalite anti-NMDAR : un traitement ciblé testé chez les premiers patients",
+      "resume": "Annonce de l'entreprise Arialys Therapeutics : les résultats de l'essai ne sont pas encore publiés (le mécanisme du traitement, lui, a été décrit dans la revue Nature Communications en 2025). Le 15 juin 2026, la société a indiqué qu'un premier patient atteint d'encéphalite anti-NMDAR, une inflammation auto-immune du cerveau due à des anticorps qui s'attaquent à un récepteur des neurones, a reçu ART5803. Ce traitement est un anticorps conçu pour capturer ces anticorps pathologiques sans bloquer le récepteur : c'est donc la cause de la maladie qui est visée, et non l'immunité en général. L'essai est ouvert en Corée du Sud ; l'agence américaine (FDA) a accepté un second essai randomisé et accordé au produit une procédure d'évaluation rapide.",
+      "pourquoi": "Une approche pensée pour la maladie elle-même plutôt qu'un traitement immunosuppresseur global : c'est original, mais on en est aux tout premiers patients et sans résultat publié.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis / Corée du Sud",
+      "source_nom": "Arialys Therapeutics (communiqué de presse)",
+      "source_url": "https://www.arialysrx.com/news/arialys-therapeutics-announces-first-anre-patient-treated-with-art5803-in-open-label-phase-2-study-and-fda-clearance-of-ind-for-randomized-phase-2-study",
+      "references": [
+        "PMID:40527893",
+        "DOI:10.1038/s41467-025-60628-1"
+      ],
+      "importance": 2,
+      "id": "fabad3b09213",
+      "date_ajout": "2026-10-25"
     },
     {
       "theme": "Encéphalite auto-immune",
