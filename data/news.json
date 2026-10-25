@@ -3,7 +3,7 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "💗",
-    "derniere_maj": "2026-10-25T16:22:30+01:00",
+    "derniere_maj": "2026-10-25T16:23:11+01:00",
     "exclus": []
   },
   "articles": [
@@ -369,6 +369,25 @@
       "type": "Type 1",
       "id": "ad7d8a464964",
       "date_ajout": "2026-10-23"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-02-05",
+      "titre": "Insuffisance ovarienne précoce : chez la souris, un médicament du rein relance des follicules",
+      "resume": "Résultats surtout obtenus chez la souris, avec en plus une petite étude exploratoire chez la femme : aucune naissance n'est rapportée. Parmi des médicaments déjà autorisés, des chercheurs ont identifié la finérénone, un médicament du rein, contre l'infertilité liée à l'insuffisance ovarienne précoce (arrêt des ovaires avant 40 ans) : chez des souris âgées, elle relance les follicules en réduisant la fibrose (durcissement) du tissu de l'ovaire. L'article décrit aussi une petite étude à l'hôpital de Shenzhen : 14 femmes atteintes ont reçu la finérénone par la bouche, en cures, avec une stimulation ovarienne adaptée, jusqu'à sept mois. Selon le communiqué de l'université de Hong Kong, 8 ont développé des follicules arrivant au stade mûr, environ la moitié a eu des ovocytes matures prélevés, et plusieurs ont donné des embryons utilisables. Publié dans Science.",
+      "pourquoi": "Une piste vraiment nouvelle, et testable car le médicament existe déjà — mais l'essentiel des preuves vient de la souris et l'étude chez la femme porte sur 14 participantes, sans grossesse rapportée.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "Chine (Hong Kong / Shenzhen)",
+      "source_nom": "Science, et communiqué de l'université de Hong Kong (HKUMed / HKU-Shenzhen Hospital)",
+      "source_url": "https://www.hku-szh.org/en/AboutUs/NewsCenter/content/post_1655300.html",
+      "references": [
+        "PMID:41643022",
+        "DOI:10.1126/science.adz4075"
+      ],
+      "importance": 2,
+      "id": "10f09e52ea9f",
+      "date_ajout": "2026-10-25"
     },
     {
       "theme": "Insuffisance ovarienne précoce",
