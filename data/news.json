@@ -3,10 +3,26 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "💗",
-    "derniere_maj": "2026-10-25T16:23:11+01:00",
+    "derniere_maj": "2026-10-28T06:39:48+01:00",
     "exclus": []
   },
   "articles": [
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-25",
+      "titre": "Insuffisance ovarienne précoce : les cellules souches restent au stade de la recherche",
+      "resume": "Une synthèse publiée le 25 octobre 2026 fait le point sur les traitements par cellules souches dans l'insuffisance ovarienne précoce. Les auteurs rappellent que les essais publiés sont petits, majoritairement sans groupe témoin, et rapportent surtout des retours de règles ou des changements de dosages hormonaux — pas des naissances. Ils concluent que cette approche doit encore être considérée comme expérimentale, en dehors d'un protocole de recherche, et qu'il manque des essais randomisés avec un suivi long pour parler de bénéfice réel sur la fertilité.",
+      "pourquoi": "Utile pour se protéger des promesses : aujourd'hui, aucune preuve solide ne permet de présenter les cellules souches comme un traitement de l'infertilité liée à l'insuffisance ovarienne précoce.",
+      "categorie": "Cellules souches",
+      "niveau": "Recherche",
+      "pays": "International",
+      "source_nom": "International Journal of General Medicine (revue de synthèse)",
+      "source_url": "https://www.dovepress.com/research-progress-of-stem-cell-therapy-for-premature-ovarian-insuffici-peer-reviewed-fulltext-article-IJGM",
+      "references": [],
+      "importance": 1,
+      "id": "a93f898672ea",
+      "date_ajout": "2026-10-28"
+    },
     {
       "theme": "Diabète",
       "date": "2026-10-21",
@@ -27,6 +43,22 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Épilepsie",
+      "date": "2026-10-19",
+      "titre": "Épilepsie très rare du jeune enfant : un premier essai d'un traitement qui vise le gène KCNT1",
+      "resume": "Le laboratoire Servier a commencé à traiter des enfants dans un premier essai chez l'humain (essai KANDLE) d'un traitement expérimental, le S230815 : un oligonucléotide antisens, c'est-à-dire une petite molécule qui empêche la production d'une protéine défectueuse à partir du gène muté KCNT1. Ce gène est responsable d'une épilepsie sévère et résistante aux médicaments apparaissant dans la petite enfance, avec des crises migrant d'une zone du cerveau à l'autre. L'essai de phase 1b/2 inclut des enfants de 2 à 12 ans, avec une injection dans le liquide qui entoure la moelle épinière. L'objectif principal est la tolérance ; aucun résultat d'efficacité n'est encore disponible.",
+      "pourquoi": "Une approche qui s'attaque à la cause génétique plutôt qu'aux symptômes, pour une maladie aujourd'hui sans traitement efficace ; on en est aux tout premiers enfants traités.",
+      "categorie": "Thérapie génique",
+      "niveau": "Essai clinique",
+      "pays": "France (Servier) / États-Unis",
+      "source_nom": "NeurologyLive (congrès Child Neurology Society 2026)",
+      "source_url": "https://www.neurologylive.com/view/first-in-human-trial-begins-antisense-oligonucleotide-kcnt1-related-epilepsy",
+      "references": [],
+      "importance": 2,
+      "id": "387e4f755e32",
+      "date_ajout": "2026-10-28"
+    },
+    {
       "theme": "Diabète",
       "date": "2026-10-15",
       "titre": "Un médicament qui ne vise que les cellules attaquées est testé pour la première fois chez l'humain",
@@ -45,6 +77,24 @@
       "type": "Type 1",
       "id": "d74231c2123a",
       "date_ajout": "2026-10-21"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-14",
+      "titre": "Épilepsie résistante : feu vert pour tester une stimulation personnalisée",
+      "resume": "Le 14 octobre 2026, la société américaine Cadence Neuroscience a reçu l'accord de la FDA (l'agence américaine du médicament) pour lancer une étude sur un dispositif de neurostimulation (stimulation électrique du cerveau) guidé par les signaux électriques propres à chaque patient. L'étude BTSEE prévoit 45 enfants et adultes atteints d'une épilepsie focale résistante aux médicaments, dans jusqu'à 10 centres américains. C'est une autorisation pour mener l'essai, pas une autorisation de mise sur le marché. Dans une analyse rétrospective de 21 patients traités par une stimulation voisine, environ 40 % n'avaient plus de crises invalidantes depuis au moins 12 mois.",
+      "pourquoi": "Si cela marche, la stimulation pourrait être réglée selon le profil de chaque cerveau plutôt qu'à l'aveugle ; mais les résultats de cet essai ne sont pas attendus avant plusieurs années.",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "Cadence Neuroscience (communiqué)",
+      "source_url": "https://cadenceneuro.com/cadence-neuroscience-receives-fda-ide-approval-to-begin-multicenter-study-of-its-biomarker-targeted-stimulation-therapy-for-focal-drug-resistant-epilepsy/",
+      "references": [
+        "NCT06424977"
+      ],
+      "importance": 2,
+      "id": "1583f1ad0a6b",
+      "date_ajout": "2026-10-28"
     },
     {
       "theme": "Diabète",
@@ -97,6 +147,24 @@
       "date_ajout": "2026-10-23"
     },
     {
+      "theme": "Maturation in vitro",
+      "date": "2026-10-05",
+      "titre": "Maturation in vitro : un essai compare la CAPA-MIV à la méthode classique, ovaire par ovaire",
+      "resume": "Un nouvel essai (NCT07858435) doit démarrer en octobre 2026 au New Hope Fertility Center de New York. Chez 20 femmes, les ovocytes immatures prélevés dans un ovaire seront maturés en laboratoire par la méthode CAPA-MIV (une maturation en deux temps, sans ou avec très peu d'hormones), puis comparés — chez la même femme — aux ovocytes obtenus dans l'autre ovaire après une stimulation légère et une FIV classique. L'objectif principal est le taux d'ovocytes arrivés à maturité ; la grossesse, la naissance vivante et les éventuelles complications sont aussi suivies.",
+      "pourquoi": "Comparer les deux méthodes chez la même personne est la façon la plus rigoureuse de situer la maturation in vitro face à la FIV ; les premiers résultats se feront attendre.",
+      "categorie": "Fertilité",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07858435",
+      "references": [
+        "NCT07858435"
+      ],
+      "importance": 1,
+      "id": "988aab115996",
+      "date_ajout": "2026-10-28"
+    },
+    {
       "theme": "Diabète",
       "date": "2026-10-02",
       "titre": "Dépistage : plus de 140 000 enfants testés en Europe, 0,45 % repérés au stade précoce",
@@ -112,6 +180,24 @@
       "type": "Type 1",
       "id": "62541ea40860",
       "date_ajout": "2026-10-21"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-02",
+      "titre": "Insuffisance ovarienne précoce : l'Allemagne ajoute un chapitre dédié à sa recommandation",
+      "resume": "La société savante allemande AWMF a ajouté un chapitre consacré à l'insuffisance ovarienne précoce dans sa recommandation nationale sur la péri- et post-ménopause, dont le contenu est détaillé dans un article publié le 2 octobre 2026. Le diagnostic repose sur des cycles irréguliers ou une absence de règles, confirmés par deux dosages de FSH (hormone qui stimule les ovaires) supérieurs à 25 mIU/ml, espacés de 4 à 6 semaines. Le texte recommande de proposer un traitement hormonal substitutif jusqu'à l'âge habituel de la ménopause, sauf contre-indication, pour protéger le cœur et les os, et d'aborder la préservation de la fertilité en cas de traitement menaçant les ovaires.",
+      "pourquoi": "Un cadre de plus, venu d'une recommandation nationale, pour un diagnostic plus précoce et un traitement hormonal poursuivi assez longtemps.",
+      "categorie": "Diagnostic",
+      "niveau": "Recherche",
+      "pays": "Allemagne",
+      "source_nom": "Gynäkologische Endokrinologie (recommandation S3 de l'AWMF)",
+      "source_url": "https://doi.org/10.1007/s10304-026-00704-x",
+      "references": [
+        "DOI:10.1007/s10304-026-00704-x"
+      ],
+      "importance": 2,
+      "id": "5cc6ddc4bc81",
+      "date_ajout": "2026-10-28"
     },
     {
       "theme": "Diabète",
@@ -149,6 +235,63 @@
       "date_ajout": "2026-10-25"
     },
     {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-25",
+      "titre": "Encéphalite auto-immune : des recommandations pour la repérer en psychiatrie",
+      "resume": "Le réseau allemand GENERATE, qui réunit plus de 50 psychiatres et neurologues, a publié le 25 septembre 2026 dans Molecular Psychiatry des recommandations pour rechercher une encéphalite auto-immune chez des patients suivis pour des troubles psychiatriques. Elles proposent une démarche par étapes (histoire clinique, IRM, EEG, prise de sang, ponction lombaire, puis recherche d'anticorps sur le sang et le liquide céphalo-rachidien) et préviennent qu'un anticorps positif dans le sang seul ne suffit pas à poser le diagnostic ni à justifier un traitement. Les auteurs précisent que ce sont des recommandations d'experts, pas des critères officiels.",
+      "pourquoi": "Ces formes sont rares mais traitables : mieux les repérer évite de longues errances diagnostiques, fréquentes quand les premiers signes sont psychiatriques.",
+      "categorie": "Diagnostic",
+      "niveau": "Recherche",
+      "pays": "Allemagne",
+      "source_nom": "Molecular Psychiatry (réseau GENERATE)",
+      "source_url": "https://www.nature.com/articles/s41380-026-03871-2",
+      "references": [
+        "PMID:42786262",
+        "DOI:10.1038/s41380-026-03871-2"
+      ],
+      "importance": 2,
+      "id": "a6244c4d1e01",
+      "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-22",
+      "titre": "Encéphalite auto-immune : un grand essai international teste l'efgartigimod",
+      "resume": "Un nouvel essai international de phase 2, POLARIS, va tester l'efgartigimod (un médicament qui fait baisser les anticorps responsables) chez des personnes atteintes d'encéphalite auto-immune, c'est-à-dire une inflammation du cerveau causée par ses propres défenses. L'essai, porté par le laboratoire argenx, prévoit 170 participants à partir de 12 ans. Il se déroule en plusieurs temps : d'abord tout le monde reçoit le traitement, puis la moitié reçoit un placebo (produit sans effet) pour comparer. Il n'existe aujourd'hui aucun traitement autorisé pour cette maladie. Le début de l'essai est prévu en 2027.",
+      "pourquoi": "C'est l'un des premiers essais tirés au sort d'aussi grande taille sur ce type de traitement dans l'encéphalite auto-immune ; les résultats ne sont pas attendus avant plusieurs années.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Belgique (labo argenx), essai international",
+      "source_nom": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07583641",
+      "references": [
+        "NCT07583641"
+      ],
+      "importance": 2,
+      "id": "9c59ac32fa71",
+      "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Diabète",
+      "type": "Type 1",
+      "date": "2026-09-17",
+      "titre": "Rein : un médicament approuvé aux États-Unis pour le diabète de type 1",
+      "resume": "Le 17 septembre 2026, la FDA (l'agence américaine du médicament) a autorisé la finérénone (Kerendia, du laboratoire Bayer) chez les adultes ayant une maladie des reins (maladie rénale chronique) liée à un diabète de type 1. C'est le premier nouveau médicament approuvé pour cette situation depuis plus de 30 ans. L'essai de phase 3 FINE-ONE, mené sur 242 participants pendant 6 mois, a montré une baisse de l'albumine dans les urines (un signe que les reins laissent passer des protéines) de 22 % à 3 mois et 28 % à 6 mois par rapport au placebo. Ce médicament peut faire monter le potassium dans le sang : une surveillance est nécessaire.",
+      "pourquoi": "Cela donne enfin une piste pour ralentir l'atteinte des reins chez les personnes vivant avec un diabète de type 1 — mais cela ne répare pas un rein déjà abîmé et ne remplace pas le suivi habituel.",
+      "categorie": "Complications",
+      "niveau": "Approuvé",
+      "pays": "États-Unis",
+      "source_nom": "AJMC (American Journal of Managed Care)",
+      "source_url": "https://www.ajmc.com/view/fda-expands-finerenone-approval-to-ckd-associated-with-type-1-diabetes",
+      "references": [
+        "NCT05901831",
+        "DOI:10.1056/NEJMoa2512854"
+      ],
+      "importance": 3,
+      "id": "045f02685ce4",
+      "date_ajout": "2026-10-28"
+    },
+    {
       "theme": "Épilepsie",
       "date": "2026-09-17",
       "titre": "Épilepsie focale : un antiépileptique d'un nouveau type déposé auprès de la FDA",
@@ -163,6 +306,43 @@
       "importance": 2,
       "id": "7a1432c81708",
       "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-17",
+      "titre": "Encéphalite anti-LGI1 : des atteintes cérébrales durables visibles à l'IRM",
+      "resume": "Une étude de l'hôpital Charité de Berlin, publiée le 17 septembre 2026, a suivi 34 patients atteints d'encéphalite anti-LGI1 (un type d'encéphalite auto-immune) jusqu'à 58 mois après le début de la maladie, avec IRM et tests de mémoire et de concentration. Malgré l'amélioration clinique, des modifications de la structure du cerveau (volume et complexité du cortex) persistaient et étaient associées à de moins bons résultats cognitifs. Les auteurs en concluent que cette encéphalite touche le cerveau bien au-delà des seuls symptômes de mémoire immédiate.",
+      "pourquoi": "Cela confirme que les troubles de mémoire et d'attention peuvent durer après la phase aiguë, et plaide pour un suivi neuropsychologique au long cours.",
+      "categorie": "Complications",
+      "niveau": "Recherche",
+      "pays": "Allemagne",
+      "source_nom": "Neurology: Neuroimmunology & Neuroinflammation",
+      "source_url": "https://doi.org/10.1212/NXI.0000000000200649",
+      "references": [
+        "PMID:42753224",
+        "DOI:10.1212/NXI.0000000000200649"
+      ],
+      "importance": 1,
+      "id": "71b8759e92c3",
+      "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-16",
+      "titre": "Encéphalite anti-NMDAR : l'efgartigimod testé chez 20 patients en Chine",
+      "resume": "Un essai de phase 2 appelé ANSWER, mené par l'hôpital Tongren de Pékin avec 7 autres hôpitaux chinois, teste l'efgartigimod chez 20 personnes atteintes d'encéphalite anti-NMDAR (une inflammation du cerveau due à des anticorps dirigés contre une protéine des neurones). Le traitement est donné en perfusion une fois par semaine pendant 4 semaines, en plus des corticoïdes habituels. Le critère principal est l'évolution du handicap (score mRS) à 4 semaines. L'essai a commencé en juin 2026 et les résultats sont attendus fin 2027.",
+      "pourquoi": "Un essai de plus sur un traitement qui agit vite sur les anticorps ; mais sans groupe placebo, il ne pourra pas prouver à lui seul qu'il fait mieux que les traitements actuels.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "ClinicalTrials.gov",
+      "source_url": "https://clinicaltrials.gov/study/NCT07822776",
+      "references": [
+        "NCT07822776"
+      ],
+      "importance": 1,
+      "id": "c077e386911e",
+      "date_ajout": "2026-10-28"
     },
     {
       "theme": "Insuffisance ovarienne précoce",
@@ -183,6 +363,26 @@
       "date_ajout": "2026-10-25"
     },
     {
+      "theme": "Diabète",
+      "type": "Général",
+      "date": "2026-09-15",
+      "titre": "Diabète : une recommandation officielle pour prendre en compte le « fardeau mental »",
+      "resume": "L'Association européenne pour l'étude du diabète (EASD) a publié le 15 septembre 2026 une recommandation officielle sur la détresse liée au diabète (la fatigue morale et l'inquiétude permanentes qu'entraîne la gestion quotidienne de la maladie) chez l'adulte, qu'il s'agisse de diabète de type 1 ou de type 2. Elle recommande de proposer, en plus du suivi habituel, un accompagnement psychologique, ainsi que le port d'un capteur de glucose et d'un système d'insuline automatisé (boucle fermée), qui ont montré qu'ils réduisaient cette détresse. Le niveau de preuve reste toutefois qualifié de faible à modéré.",
+      "pourquoi": "Cela reconnaît officiellement que le quotidien avec un diabète pèse moralement, et propose des outils concrets pour en parler en consultation.",
+      "categorie": "Quotidien",
+      "niveau": "Recherche",
+      "pays": "Europe (EASD)",
+      "source_nom": "Diabetologia (recommandation EASD)",
+      "source_url": "https://doi.org/10.1007/s00125-026-06840-0",
+      "references": [
+        "PMID:42744915",
+        "DOI:10.1007/s00125-026-06840-0"
+      ],
+      "importance": 2,
+      "id": "379ada0eba53",
+      "date_ajout": "2026-10-28"
+    },
+    {
       "theme": "Épilepsie",
       "date": "2026-09-08",
       "titre": "Dravet : une thérapie génique administrée une seule fois réduit fortement les crises",
@@ -197,6 +397,60 @@
       "importance": 2,
       "id": "f1f874e872e6",
       "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-09-07",
+      "titre": "Insuffisance ovarienne précoce : plus fréquente avec plusieurs maladies auto-immunes",
+      "resume": "Une équipe italienne (université Sapienza de Rome) a analysé les dossiers de 7 690 femmes ménopausées suivies pour une maladie de la thyroïde. Parmi celles qui cumulaient plusieurs maladies auto-immunes (les défenses attaquent plusieurs organes), 5,92 % avaient eu une insuffisance ovarienne précoce (arrêt du fonctionnement des ovaires avant 40 ans), contre 1,84 % chez celles qui n'avaient qu'une maladie de la thyroïde et 1,16 % chez les autres. Les fausses couches étaient aussi plus fréquentes dans ce groupe. L'étude est parue le 7 septembre 2026 dans Frontiers in Endocrinology.",
+      "pourquoi": "Cela invite à surveiller la réserve d'ovocytes plus tôt chez les jeunes femmes qui cumulent plusieurs maladies auto-immunes — c'est une observation, pas encore une recommandation officielle.",
+      "categorie": "Diagnostic",
+      "niveau": "Recherche",
+      "pays": "Italie",
+      "source_nom": "Frontiers in Endocrinology",
+      "source_url": "https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2026.1907480/full",
+      "references": [
+        "DOI:10.3389/fendo.2026.1907480"
+      ],
+      "importance": 1,
+      "id": "6612e727618a",
+      "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-09-03",
+      "titre": "Syndrome de Dravet : le zorevunersen confirme ses effets sur quatre ans",
+      "resume": "Stoke Therapeutics et Biogen ont présenté au congrès européen d'épilepsie (Athènes, septembre 2026) les données à 4 ans des extensions ouvertes du zorevunersen, un traitement expérimental qui vise la cause génétique du syndrome de Dravet. Chez les enfants traités en plus de leurs antiépileptiques habituels, la baisse des crises s'est maintenue et les tests de cognition et de comportement se sont améliorés sur 4 ans. Une nouvelle analyse montre aussi une forte baisse des crises généralisées, qui sont le principal facteur de risque de mort subite (SUDEP). Le traitement reste expérimental : l'essai de phase 3 EMPEROR doit livrer ses résultats en 2027.",
+      "pourquoi": "C'est un traitement qui semble modifier l'évolution de la maladie et pas seulement calmer les crises ; il ne sera pas disponible avant les résultats de la phase 3.",
+      "categorie": "Thérapie génique",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis / Royaume-Uni",
+      "source_nom": "Stoke Therapeutics / Biogen (GlobeNewswire)",
+      "source_url": "https://www.globenewswire.com/news-release/2026/09/03/3356336/0/en/stoke-therapeutics-and-biogen-present-long-term-clinical-data-that-support-the-disease-modifying-potential-of-zorevunersen-an-investigational-medicine-for-the-treatment-of-dravet-s.html",
+      "references": [
+        "NCT06872125"
+      ],
+      "importance": 2,
+      "id": "7c69c5adb93c",
+      "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-08-20",
+      "titre": "Maturation in vitro : mieux comprendre pourquoi les ovocytes sont fragilisés",
+      "resume": "Des chercheurs australiens ont comparé les protéines (les briques qui font fonctionner une cellule) d'ovocytes de souris mûris de trois façons : dans le corps, par maturation in vitro classique, et par CAPA-MIV (une maturation en deux temps, sans stimulation hormonale). Les ovocytes mûris au laboratoire atteignaient moins souvent le stade du blastocyste (un stade précoce de l'embryon), et leurs protéines liées à la fabrication des protéines et au recyclage interne de la cellule étaient modifiées. Les mêmes protéines ont été retrouvées dans des ovocytes humains immatures récupérés lors de cycles de FIV. L'étude est parue le 20 août 2026 dans Human Reproduction.",
+      "pourquoi": "Mieux comprendre ce qui manque aux ovocytes mûris en laboratoire pourrait aider à améliorer les milieux de culture ; mais c'est un travail de laboratoire, sans résultat de grossesse.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "Australie",
+      "source_nom": "Human Reproduction",
+      "source_url": "https://academic.oup.com/humrep/article/41/10/1741/8767530",
+      "references": [
+        "DOI:10.1093/humrep/deag134"
+      ],
+      "importance": 1,
+      "id": "7e2c6ba51b93",
+      "date_ajout": "2026-10-28"
     },
     {
       "theme": "Insuffisance ovarienne précoce",
@@ -216,6 +470,25 @@
       "importance": 2,
       "id": "4fa3aa717a8a",
       "date_ajout": "2026-10-25"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-07-28",
+      "titre": "Maturation in vitro : l'AMH aide à prévoir les ovocytes récupérables",
+      "resume": "Une étude rétrospective publiée dans Human Reproduction a analysé 119 filles et adolescentes atteintes de thalassémie dépendante des transfusions, dont le tissu ovarien a été prélevé et congelé avant une greffe de moelle osseuse (préservation de la fertilité). Les ovocytes immatures recueillis lors du prélèvement ont été maturés en laboratoire (maturation in vitro, MIV). Chaque augmentation de 1 ng/ml du taux d'AMH (hormone antimüllérienne, un marqueur de la réserve d'ovocytes) mesuré avant l'opération correspondait à 14 % d'ovocytes en plus et à un meilleur taux de maturation. En revanche, l'AMH ne reflétait pas la réserve de follicules primordiaux vue au microscope.",
+      "pourquoi": "Mieux estimer à l'avance le nombre d'ovocytes utilisables aide à conseiller les jeunes patientes avant un traitement qui menace leur fertilité.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "Chine",
+      "source_nom": "Human Reproduction",
+      "source_url": "https://doi.org/10.1093/humrep/deag117",
+      "references": [
+        "PMID:42515819",
+        "DOI:10.1093/humrep/deag117"
+      ],
+      "importance": 1,
+      "id": "3d376fed0a2c",
+      "date_ajout": "2026-10-28"
     },
     {
       "theme": "Épilepsie",
