@@ -3,10 +3,82 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "💗",
-    "derniere_maj": "2026-10-28T06:39:48+01:00",
+    "derniere_maj": "2026-10-29T20:47:46+01:00",
     "exclus": []
   },
   "articles": [
+    {
+      "theme": "Diabète",
+      "type": "Type 1",
+      "date": "2026-10-28",
+      "titre": "Greffe d'îlots : moins de fardeau mental et de peur des hypoglycémies à 1 an",
+      "resume": "Une mise à jour de l'essai FORWARD-VX-880-101 a été présentée au congrès Breakthrough T1D (Philadelphie, 9-11 octobre 2026) et rapportée le 28 octobre : elle porte sur 12 adultes vivant avec un diabète de type 1 (tous avec une perte de sensation des hypoglycémies) ayant reçu une seule perfusion d'îlots fabriqués à partir de cellules souches (zimislecel). Le temps passé dans la cible glycémique est passé de 49,5 % à 93,3 % à un an, aucun participant n'a refait d'hypoglycémie sévère et 10 sur 12 (83 %) ne prenaient plus d'insuline. En plus des chiffres, le score de fardeau mental lié au diabète est passé de 3 à 1,5 sur 6 et celui de peur de l'hypoglycémie de 80 à 28 sur 132. Tous prennent des médicaments anti-rejet (immunosuppresseurs) à vie et l'essai n'a pas de groupe témoin.",
+      "pourquoi": "Cela montre que ces thérapies cellulaires allègent aussi le quotidien, pas seulement les chiffres — mais il s'agit de 12 personnes sans tirage au sort, et le traitement n'est autorisé nulle part à ce jour.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "Healio (congrès Breakthrough T1D 2026)",
+      "source_url": "https://www.healio.com/news/endocrinology/20261028/islet-cell-therapy-reduces-diabetes-distress-fear-of-hypoglycemia-in-type-1-diabetes",
+      "references": [
+        "NCT04786262"
+      ],
+      "importance": 2,
+      "id": "ff439700b4f6",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-28",
+      "titre": "Insuffisance ovarienne précoce : ce que les tests génétiques retrouvent vraiment",
+      "resume": "Une étude publiée le 28 octobre 2026 dans le Journal of the Endocrine Society a analysé l'ADN de 160 femmes ayant une insuffisance ovarienne précoce dite inexpliquée (comparées à 716 femmes témoins) avec un panel de 155 gènes déjà associés à cette maladie. Des variants pathogènes ont été retrouvés chez 19,3 % d'entre elles, mais seuls 7,5 % ont été jugés réellement pertinents après vérification du rôle du gène et du mode de transmission ; chez les femmes n'ayant jamais eu de règles (aménorrhée primaire), ce taux montait à 15,4 %. Les auteurs concluent que ces panels apportent des informations utiles mais qu'ils ne suffisent pas.",
+      "pourquoi": "Cela aide à comprendre pourquoi un test génétique reste souvent négatif, et pourquoi la génétique n'explique qu'une minorité des cas.",
+      "categorie": "Diagnostic",
+      "niveau": "Recherche",
+      "source_nom": "Journal of the Endocrine Society",
+      "source_url": "https://doi.org/10.1210/jendso/bvag215",
+      "references": [
+        "DOI:10.1210/jendso/bvag215"
+      ],
+      "importance": 1,
+      "id": "21ca173bd156",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-10-27",
+      "titre": "Maturation in vitro : un grand laboratoire rachète la société du traitement Fertilo",
+      "resume": "Le laboratoire suisse Ferring a annoncé le 27 octobre 2026 le rachat de la société américaine Gameto pour un montant pouvant atteindre 1,4 milliard de dollars. Gameto développe Fertilo, une méthode de maturation in vitro qui utilise des cellules de soutien de l'ovaire issues de cellules souches pour faire mûrir les ovocytes en laboratoire, avec l'objectif de remplacer 14 jours d'injections hormonales par un protocole de 3 jours. Fertilo est déjà utilisé dans des cliniques en Australie et dans certains pays d'Asie-Pacifique et d'Amérique latine ; un essai de phase 3 le compare à la maturation in vitro classique aux États-Unis (500 participantes prévues, fin prévue en 2028).",
+      "pourquoi": "Cela montre que la maturation in vitro intéresse désormais les grands acteurs de la fertilité — mais l'essai qui doit prouver l'efficacité n'a pas encore livré ses résultats, et aucune de ces méthodes n'est disponible en France.",
+      "categorie": "Fertilité",
+      "niveau": "Disponible",
+      "pays": "Australie, Asie-Pacifique, Amérique latine",
+      "source_nom": "Pharmaceutical Technology",
+      "source_url": "https://www.pharmaceutical-technology.com/news/ferring-gameto-1-38bn-takeover-reproductive-health/",
+      "references": [
+        "NCT06858111"
+      ],
+      "importance": 1,
+      "id": "11117133a39b",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-10-26",
+      "titre": "Encéphalite auto-immune : le premier essai tiré au sort d'immunoglobulines, arrêté trop tôt",
+      "resume": "Les résultats de l'essai britannique ENCEPH-IG ont été publiés le 26 octobre 2026. Cet essai voulait vérifier si des immunoglobulines en perfusion (IgIV, des anticorps extraits de dons de plasma) ajoutées aux corticoïdes améliorent la récupération dans l'encéphalite auto-immune de l'adulte. Il a été arrêté faute de participants : 21 personnes seulement ont été tirées au sort dans 11 hôpitaux, 10 avec les IgIV et 11 avec un placebo. À 12 mois, 10 patients (48 %) s'étaient rétablis, à parts égales dans les deux groupes ; le délai de récupération était plus court dans le groupe IgIV (10 semaines contre 20), mais l'effectif est trop faible pour conclure. Les effets indésirables graves, surtout des infections, ont touché 82 % du groupe placebo et 60 % du groupe IgIV.",
+      "pourquoi": "Même sans conclusion, c'est une information utile : les IgIV sont largement utilisées dans cette maladie sans preuve solide, et cette étude montre la difficulté de recruter dans une maladie rare.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Royaume-Uni",
+      "source_nom": "NIHR Open Research (essai ENCEPH-IG)",
+      "source_url": "https://openresearch.nihr.ac.uk/articles/6-188",
+      "references": [
+        "DOI:10.3310/nihropenres.14436.1"
+      ],
+      "importance": 2,
+      "id": "79078d51ee35",
+      "date_ajout": "2026-10-29"
+    },
     {
       "theme": "Insuffisance ovarienne précoce",
       "date": "2026-10-25",
@@ -44,6 +116,25 @@
     },
     {
       "theme": "Épilepsie",
+      "date": "2026-10-20",
+      "titre": "Grappes de crises chez l'enfant : un spray nasal de diazépam arrête la plupart des états de mal",
+      "resume": "Trois analyses ont été présentées au congrès de la Child Neurology Society (Montréal, 14-17 octobre 2026). La première regroupe deux études sur le diazépam en spray nasal (Valtoco, autorisé aux États-Unis à partir de 2 ans) chez des enfants de 2 à 17 ans : sur 266 épisodes d'état de mal (une crise longue qui ne s'arrête pas toute seule) survenus dans une grappe de crises, 73,3 % se sont arrêtés avant la limite de 30 minutes, 92,5 % après une seule dose, avec un délai médian de 5 minutes entre le spray et l'arrêt de la crise. Ces analyses sont rétrospectives et les études n'avaient pas de groupe témoin. Un troisième travail, mené au Canada, montre que seulement environ 1 enfant sur 5 concerné par des grappes de crises avait un médicament de secours prescrit.",
+      "pourquoi": "Un traitement de secours rapide, donné par l'entourage, peut interrompre une grappe de crises et éviter l'hôpital — mais ces données ne démontrent pas à elles seules l'efficacité du produit.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis, Canada",
+      "source_nom": "NeurologyLive (congrès CNS 2026)",
+      "source_url": "https://www.neurologylive.com/view/post-hoc-analysis-shows-diazepam-nasal-spray-terminates-most-pediatric-status-epilepticus-episodes-seizure-clusters",
+      "references": [
+        "NCT05076838",
+        "NCT02721069"
+      ],
+      "importance": 1,
+      "id": "3c1b75112110",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Épilepsie",
       "date": "2026-10-19",
       "titre": "Épilepsie très rare du jeune enfant : un premier essai d'un traitement qui vise le gène KCNT1",
       "resume": "Le laboratoire Servier a commencé à traiter des enfants dans un premier essai chez l'humain (essai KANDLE) d'un traitement expérimental, le S230815 : un oligonucléotide antisens, c'est-à-dire une petite molécule qui empêche la production d'une protéine défectueuse à partir du gène muté KCNT1. Ce gène est responsable d'une épilepsie sévère et résistante aux médicaments apparaissant dans la petite enfance, avec des crises migrant d'une zone du cerveau à l'autre. L'essai de phase 1b/2 inclut des enfants de 2 à 12 ans, avec une injection dans le liquide qui entoure la moelle épinière. L'objectif principal est la tolérance ; aucun résultat d'efficacité n'est encore disponible.",
@@ -57,6 +148,39 @@
       "importance": 2,
       "id": "387e4f755e32",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-19",
+      "titre": "Syndrome de Dravet : le stiripentol confirmé en conditions réelles sur 98 patients",
+      "resume": "Les résultats de l'étude STIRUS ont été présentés au congrès de la Child Neurology Society (Montréal, du 14 au 17 octobre 2026). À partir des dossiers de 98 personnes atteintes du syndrome de Dravet suivies dans 10 centres américains, les chercheurs ont comparé les 3 mois avant le début du stiripentol, les 3 premiers mois de traitement et les 3 derniers mois de suivi. La fréquence des crises convulsives touchant les deux côtés du corps a nettement diminué (44 % des patients avec une forte réduction), le nombre de patients ayant fait un état de mal épileptique est passé de 33 avant traitement à 14 à la fin du suivi, et les passages aux urgences et hospitalisations ont aussi baissé. Somnolence et baisse d'appétit ont touché la moitié des patients, sans surprise nouvelle.",
+      "pourquoi": "Cela conforte l'usage d'un médicament déjà autorisé, en dehors des essais — mais ce sont des dossiers relus après coup, pas un essai tiré au sort, et les données n'ont pas encore été publiées dans une revue.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "NeurologyLive (congrès Child Neurology Society 2026, étude STIRUS)",
+      "source_url": "https://www.neurologylive.com/view/real-world-data-back-stiripentol-effect-seizures-dravet-syndrome",
+      "references": [],
+      "importance": 1,
+      "id": "8b44aef5bc83",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-17",
+      "titre": "Épilepsie d'une zone profonde du cerveau chez l'enfant : la thermo-ablation au laser",
+      "resume": "Une étude publiée le 17 octobre 2026 dans la revue Epilepsia a suivi 8 enfants (âge médian 10 ans) opérés d'une épilepsie focale venant de l'insula, une zone profonde du cerveau difficile à atteindre, par thermo-ablation au laser guidée par IRM : une fibre optique chauffée détruit une petite zone sans ouvrir le crâne. Après un suivi médian de 38 mois, 4 enfants sur 8 n'ont plus aucune crise, dont les 2 enfants dont l'épilepsie venait d'une tumeur de l'insula. Le seul effet indésirable observé a été un trouble de la parole, transitoire.",
+      "pourquoi": "Une piste moins lourde que la chirurgie ouverte pour une zone profonde du cerveau — mais l'étude ne porte que sur 8 enfants, dans un seul centre, sans comparaison.",
+      "categorie": "Chirurgie",
+      "niveau": "Recherche",
+      "source_nom": "Epilepsia",
+      "source_url": "https://doi.org/10.1002/epi.70529",
+      "references": [
+        "DOI:10.1002/epi.70529"
+      ],
+      "importance": 1,
+      "id": "0bf12401c55c",
+      "date_ajout": "2026-10-29"
     },
     {
       "theme": "Diabète",
@@ -145,6 +269,62 @@
       "type": "Type 1",
       "id": "2ed91d5d967d",
       "date_ajout": "2026-10-23"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-08",
+      "titre": "Annoncer le diagnostic d'insuffisance ovarienne précoce : ce que disent 16 femmes",
+      "resume": "Une étude qualitative publiée le 8 octobre 2026 dans Reproduction & Fertility a interrogé 16 femmes vivant au Royaume-Uni sur la manière dont le diagnostic d'insuffisance ovarienne précoce leur a été annoncé. Plusieurs ont appris la nouvelle par téléphone, par un portail en ligne ou par un compte rendu écrit, sans pouvoir poser de questions, et décrivent un choc et un sentiment d'isolement. Elles reprochent aussi aux soignants de résumer la maladie à la fertilité, alors que le traitement hormonal, les risques pour les os et le cœur, les symptômes et le vécu émotionnel sont peu abordés.",
+      "pourquoi": "Un rappel utile : la façon d'annoncer fait partie du soin, et l'insuffisance ovarienne précoce est une maladie au long cours, pas seulement une question de fertilité.",
+      "categorie": "Quotidien",
+      "niveau": "Recherche",
+      "pays": "Royaume-Uni",
+      "source_nom": "Reproduction & Fertility",
+      "source_url": "https://doi.org/10.1530/RAF-26-0076",
+      "references": [
+        "PMID:42789675",
+        "DOI:10.1530/RAF-26-0076"
+      ],
+      "importance": 1,
+      "id": "e7e486c44196",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-10-07",
+      "titre": "Encéphalite auto-immune : comparer les traitements de la phase aiguë",
+      "resume": "Une méta-analyse en réseau publiée le 7 octobre 2026 dans Frontiers in Immunology a rassemblé 11 études et 1 359 patients adultes atteints d'une encéphalite auto-immune afin de comparer les traitements du début de la maladie. L'association de corticoïdes à forte dose et d'efgartigimod (un médicament qui accélère l'élimination des anticorps responsables) arrivait en tête pour l'amélioration du handicap, suivie des corticoïdes associés à une immunoadsorption (filtration des anticorps du sang) ; l'association corticoïdes + échanges plasmatiques était classée dernière sur ce critère. Les immunoglobulines utilisées seules étaient le traitement entraînant le moins d'effets indésirables.",
+      "pourquoi": "Cela aide à choisir un traitement quand il faut décider vite — mais les études regroupées sont surtout des observations, avec peu de patients, et aucune n'a été conçue pour comparer directement ces options.",
+      "categorie": "Immunothérapie",
+      "niveau": "Recherche",
+      "source_nom": "Frontiers in Immunology",
+      "source_url": "https://doi.org/10.3389/fimmu.2026.1807436",
+      "references": [
+        "PMID:42908834",
+        "DOI:10.3389/fimmu.2026.1807436"
+      ],
+      "importance": 2,
+      "id": "f0520ebe85d8",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-05",
+      "titre": "Stimulation du nerf vague : les résultats à 3 ans d'une grande étude internationale",
+      "resume": "Les résultats complets à 36 mois de l'étude CORE-VNS ont été publiés le 5 octobre 2026 dans la revue Neuromodulation. L'étude a suivi, dans 61 centres de 16 pays, 531 personnes atteintes d'une épilepsie résistante aux médicaments qui recevaient pour la première fois un stimulateur du nerf vague (un boîtier posé sous la peau qui envoie des impulsions électriques au nerf du cou). À 36 mois, la fréquence des crises avait baissé de 76 % en médiane ; 16 % des participants n'avaient plus aucune crise et 28 % n'avaient plus les types de crises qu'ils avaient au départ. Les hospitalisations liées aux crises ont diminué de 73 % et les passages aux urgences sont passés de 32 % à 15 % des participants.",
+      "pourquoi": "Une preuve de plus, sur un grand nombre de personnes, que la stimulation du nerf vague aide durablement dans les épilepsies résistantes — mais l'étude est observationnelle (personne n'a été tiré au sort).",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "International (61 centres, 16 pays)",
+      "source_nom": "Neuromodulation (étude CORE-VNS)",
+      "source_url": "https://doi.org/10.1016/j.neurom.2026.09.017",
+      "references": [
+        "NCT03529045",
+        "DOI:10.1016/j.neurom.2026.09.017"
+      ],
+      "importance": 2,
+      "id": "40152915da87",
+      "date_ajout": "2026-10-29"
     },
     {
       "theme": "Maturation in vitro",
@@ -255,6 +435,24 @@
     },
     {
       "theme": "Encéphalite auto-immune",
+      "date": "2026-09-25",
+      "titre": "Encéphalite auto-immune : un score clinique pour aider à décider qui faire tester",
+      "resume": "Une étude publiée le 25 septembre 2026 dans Annals of Clinical and Translational Neurology a évalué, chez 85 patients adressés à un centre de neuro-immunologie, un score fondé sur des éléments simples (crises, troubles de mémoire et du comportement, signes à l'IRM) destiné à repérer une encéphalite auto-immune. Ce score a mieux trié les patients que les critères officiels utilisés aujourd'hui, y compris quand aucun anticorps n'était retrouvé (aire sous la courbe 0,894 contre 0,804). À partir de 4 points, la capacité à distinguer les malades des autres approchait ou dépassait 80 %. L'étude est rétrospective et menée dans un seul centre.",
+      "pourquoi": "Un outil d'aide pour orienter les recherches d'anticorps plus tôt, sans attendre tous les résultats — mais il doit être confirmé dans d'autres centres avant d'être utilisé en pratique.",
+      "categorie": "Diagnostic",
+      "niveau": "Recherche",
+      "source_nom": "Annals of Clinical and Translational Neurology",
+      "source_url": "https://doi.org/10.1002/acn3.70526",
+      "references": [
+        "PMID:42791033",
+        "DOI:10.1002/acn3.70526"
+      ],
+      "importance": 1,
+      "id": "d3e59602ac1d",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
       "date": "2026-09-22",
       "titre": "Encéphalite auto-immune : un grand essai international teste l'efgartigimod",
       "resume": "Un nouvel essai international de phase 2, POLARIS, va tester l'efgartigimod (un médicament qui fait baisser les anticorps responsables) chez des personnes atteintes d'encéphalite auto-immune, c'est-à-dire une inflammation du cerveau causée par ses propres défenses. L'essai, porté par le laboratoire argenx, prévoit 170 participants à partir de 12 ans. Il se déroule en plusieurs temps : d'abord tout le monde reçoit le traitement, puis la moitié reçoit un placebo (produit sans effet) pour comparer. Il n'existe aujourd'hui aucun traitement autorisé pour cette maladie. Le début de l'essai est prévu en 2027.",
@@ -270,6 +468,25 @@
       "importance": 2,
       "id": "9c59ac32fa71",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Diabète",
+      "date": "2026-09-22",
+      "titre": "Îlots encapsulés : un implant pour protéger les cellules sans anti-rejet à vie",
+      "resume": "Le 22 septembre 2026, l'entreprise Encellin et l'association Breakthrough T1D ont annoncé le lancement d'un essai de phase 1 (NCT07680673) prévu au Canada, à Vancouver et Toronto, chez 10 adultes vivant avec un diabète de type 1. Le principe : des îlots de pancréas venant de donneurs décédés sont placés dans un petit implant souple, de la taille d'une pièce de monnaie, glissé sous la peau du bras ou de l'abdomen, qui doit les protéger du système immunitaire sans médicaments anti-rejet pris par voie générale. L'implant est retiré au bout de 4 mois puis analysé ; l'objectif principal est la tolérance, pas encore l'efficacité. Le début de l'essai est annoncé pour janvier 2027.",
+      "pourquoi": "Si l'encapsulation fonctionne, elle pourrait éviter les anti-rejet à vie — mais on en est à la première étape, sans aucun résultat, et les îlots viennent de donneurs décédés.",
+      "categorie": "Traitement",
+      "niveau": "Essai clinique",
+      "pays": "Canada",
+      "source_nom": "Breakthrough T1D (communiqué de presse)",
+      "source_url": "https://www.breakthrought1d.org/for-the-media/press-releases/encellin-partners-with-breakthrough-t1d-to-advance-immune-protected-cell-therapy-for-type-1-diabetes/",
+      "references": [
+        "NCT07680673"
+      ],
+      "importance": 1,
+      "type": "Type 1",
+      "id": "1a24bfeeb376",
+      "date_ajout": "2026-10-29"
     },
     {
       "theme": "Diabète",
@@ -433,6 +650,84 @@
       "importance": 2,
       "id": "7c69c5adb93c",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Diabète",
+      "date": "2026-09-02",
+      "titre": "Boucle fermée « bicomposant » : plus de temps dans la cible chez les adolescents",
+      "resume": "Un essai néerlandais publié le 2 septembre 2026 a testé chez 20 adolescents de 12 à 18 ans (15 analysés) un système de boucle fermée qui injecte automatiquement de l'insuline et du glucagon (une hormone qui fait remonter le sucre), sans aucune intervention de l'utilisateur : le système Inreda AP. Pendant deux semaines, le temps passé dans la cible (3,9 à 10 mmol/L) est passé de 61,3 % à 74,9 % (valeurs médianes) par rapport à leur traitement habituel, avec moins de temps en hyperglycémie. Aucun problème de sécurité n'a été observé, mais l'essai est petit et chaque période ne durait que deux semaines.",
+      "pourquoi": "Un pas de plus vers un système entièrement automatique, qui n'oblige pas à annoncer les repas — mais c'est un dispositif expérimental testé sur peu d'adolescents et très peu de temps.",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "Pays-Bas",
+      "source_nom": "Pediatric Diabetes (essai PAPAYA 1)",
+      "source_url": "https://doi.org/10.48130/pedi-0026-0009",
+      "references": [
+        "NCT05543850",
+        "DOI:10.48130/pedi-0026-0009"
+      ],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "4915bf0c9c26",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Diabète",
+      "date": "2026-09-01",
+      "titre": "Pompe automatisée Omnipod 5 : les bénéfices se maintiennent sur 12 mois en France",
+      "resume": "Après un premier essai tiré au sort, 75 adultes vivant en France avec un diabète de type 1 ont continué pendant 12 mois avec le système Omnipod 5, qui ajuste automatiquement l'insuline (boucle semi-fermée). Sur toute la période, le temps passé dans la cible (0,70 à 1,80 g/L) a augmenté de 17,9 points, soit environ 4,3 heures de plus par jour, pour atteindre 62,3 %, et l'HbA1c (le reflet de la glycémie des trois derniers mois) est passée de 8,33 % à 7,18 %. Les scores de qualité de vie et de confiance face aux hypoglycémies se sont maintenus ou améliorés, et les effets indésirables sont restés rares. Résultats publiés le 1er septembre 2026 dans Endocrinology, Diabetes & Metabolism.",
+      "pourquoi": "Cela conforte, sur des personnes suivies en France, que l'automatisation tient dans la durée — mais ce sont des volontaires d'un essai, et ce système ne convient pas à toutes les situations.",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "France",
+      "source_nom": "Endocrinology, Diabetes & Metabolism",
+      "source_url": "https://doi.org/10.1002/edm2.70321",
+      "references": [
+        "PMID:42671087",
+        "DOI:10.1002/edm2.70321"
+      ],
+      "importance": 2,
+      "type": "Type 1",
+      "id": "e6934e8b0459",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-09-01",
+      "titre": "Insuffisance ovarienne précoce : une hausse des cas depuis 2011, surtout hors traitement médical",
+      "resume": "Une étude publiée le 1er septembre 2026 dans Human Reproduction a suivi, à partir des données de santé de la province canadienne de l'Ontario, 3 635 702 femmes de 39 ans ou moins entre 1995 et 2019. Au total, 168 173 ont eu une insuffisance ovarienne précoce (arrêt du fonctionnement des ovaires avant 40 ans), soit 389 cas pour 100 000 femmes-années, avec un âge médian de 31 ans au diagnostic. Les taux ont baissé jusqu'en 2008 puis augmenté régulièrement jusqu'en 2019, surtout pour les causes non liées à un traitement médical. Les facteurs associés à un risque plus élevé étaient l'endométriose (risque multiplié par 3,45), un cancer traité par chimiothérapie ou radiothérapie (×2,01), le tabac ou la consommation de drogues (×1,59), une anomalie chromosomique (×1,50) et une maladie auto-immune (×1,19).",
+      "pourquoi": "Cela aide à repérer les situations où surveiller la réserve d'ovocytes plus tôt — mais les diagnostics venaient de dossiers administratifs et il s'agit d'observations, pas d'une recommandation officielle.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "Canada",
+      "source_nom": "Human Reproduction",
+      "source_url": "https://doi.org/10.1093/humrep/deag111",
+      "references": [
+        "PMID:42449546",
+        "DOI:10.1093/humrep/deag111"
+      ],
+      "importance": 2,
+      "id": "3ac665e79dfa",
+      "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-09-01",
+      "titre": "Maturation in vitro : récupérer les ovocytes immatures améliore les chances de naissance",
+      "resume": "Une étude publiée dans Human Reproduction (numéro de septembre 2026) a analysé 8 ans de pratique dans un centre espagnol. Chez 47 femmes de moins de 39 ans qui avaient produit très peu d'ovocytes mûrs lors d'une FIV, les ovocytes les plus immatures (dits « à vésicule germinale ») ont été gardés 24 heures de plus au laboratoire pour tenter de les faire mûrir. Environ la moitié ont mûri : cela a permis d'obtenir au moins un embryon supplémentaire chez 11 femmes sur 47 et a augmenté de 20 % le nombre de femmes ayant au moins une naissance. Ces embryons se développaient moins souvent en blastocyste, mais ils étaient aussi souvent normaux sur le plan chromosomique.",
+      "pourquoi": "De quoi éviter de jeter des ovocytes immatures plutôt que de recommencer un cycle — mais c'est une étude rétrospective d'un seul centre, sur peu de femmes, à confirmer.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "Espagne",
+      "source_nom": "Human Reproduction",
+      "source_url": "https://doi.org/10.1093/humrep/deag115",
+      "references": [
+        "PMID:42442002",
+        "DOI:10.1093/humrep/deag115"
+      ],
+      "importance": 1,
+      "id": "8932cb2129cc",
+      "date_ajout": "2026-10-29"
     },
     {
       "theme": "Maturation in vitro",
