@@ -3,7 +3,7 @@
     "titre": "Soleil du Nord",
     "sous_titre": "Ce que la recherche découvre, partout dans le monde, sur les sujets qui comptent pour toi, expliqué simplement.",
     "dedicace": "💗",
-    "derniere_maj": "2026-10-29T20:47:46+01:00",
+    "derniere_maj": "2026-10-31T07:47:00+01:00",
     "exclus": []
   },
   "articles": [
@@ -25,6 +25,25 @@
       "importance": 2,
       "id": "ff439700b4f6",
       "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Diabète",
+      "type": "Type 1",
+      "date": "2026-10-28",
+      "titre": "Diabète de type 1 : un premier essai de thérapie génique ouvre en Italie",
+      "resume": "Un essai de phase I/II a ouvert à l'hôpital universitaire de Padoue, en Italie : c'est le premier essai chez l'humain d'une thérapie génique pour le diabète de type 1. L'équipe prélève des cellules souches du sang de la personne (des cellules capables de donner naissance aux cellules du sang et du système immunitaire), les modifie en laboratoire pour qu'elles portent une molécule appelée PD-L1 — un « frein » naturel du système immunitaire — puis les réinjecte. L'objectif est de freiner l'attaque des cellules bêta du pancréas, qui fabriquent l'insuline. L'essai concerne 15 adultes récemment diagnostiqués, dans un seul centre ; le registre européen des essais indique un début le 13 mars 2026 et un recrutement ouvert depuis le 14 juillet 2026, et le critère principal est la tolérance.",
+      "pourquoi": "C'est une piste entièrement nouvelle pour protéger les cellules qui fabriquent l'insuline juste après le diagnostic — mais l'essai vient d'ouvrir, il est petit et sans groupe de comparaison : on ne connaît encore aucun résultat.",
+      "categorie": "Thérapie génique",
+      "niveau": "Essai clinique",
+      "pays": "Italie",
+      "source_nom": "EconoTimes (d'après le registre européen des essais cliniques CTIS)",
+      "source_url": "https://econotimes.com/Padua-Trial-Tests-Engineered-Stem-Cells-for-Newly-Diagnosed-Type-1-Diabetes-1765130",
+      "references": [
+        "NCT06938334"
+      ],
+      "importance": 2,
+      "id": "8cf48a2f3888",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Insuffisance ovarienne précoce",
@@ -203,6 +222,24 @@
       "date_ajout": "2026-10-21"
     },
     {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-15",
+      "titre": "Insuffisance ovarienne précoce : le point sur les causes et la santé au long cours",
+      "resume": "Une revue publiée le 15 octobre 2026 dans Reproduction & Fertility fait le point sur l'insuffisance ovarienne précoce (arrêt du fonctionnement des ovaires avant 40 ans) et la ménopause précoce (entre 40 et 45 ans). Elle retient une fréquence mondiale d'environ 3,7 % et 12 %, plus élevée qu'on ne le pensait, rappelle les risques associés (cœur, os, mémoire, troubles de l'humeur) et le rôle du traitement hormonal, à poursuivre jusqu'à l'âge habituel de la ménopause. Elle cite aussi une analyse portant sur 716 648 femmes de 44 pays à revenus bas et intermédiaires, où la fréquence atteint 7,1 %. Aucun nouvel essai n'est rapporté : c'est une synthèse.",
+      "pourquoi": "Utile pour comprendre que ces situations sont plus fréquentes qu'estimé et que le suivi hormonal se joue sur le long terme — la décision reste celle du médecin.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "International",
+      "source_nom": "Reproduction & Fertility",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13695439/",
+      "references": [
+        "DOI:10.1530/RAF-26-0152"
+      ],
+      "importance": 1,
+      "id": "e405649c780b",
+      "date_ajout": "2026-10-31"
+    },
+    {
       "theme": "Épilepsie",
       "date": "2026-10-14",
       "titre": "Épilepsie résistante : feu vert pour tester une stimulation personnalisée",
@@ -219,6 +256,24 @@
       "importance": 2,
       "id": "1583f1ad0a6b",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-13",
+      "titre": "Épilepsie : un logiciel qui « discute » avec la personne repère mieux les crises",
+      "resume": "Des chercheurs américains ont testé, sur 13 personnes hospitalisées pour un enregistrement de l'activité électrique du cerveau (EEG), une application de téléphone reliée à une intelligence artificielle. La personne pouvait poser ses propres questions — par exemple « ai-je fait une crise pendant mon sommeil ? » — et dire si les alertes reçues étaient justes ou non. Plus de 1 300 messages ont été échangés, le logiciel a répondu correctement à plus de 92 % des questions, et les retours des patients ont fait baisser les fausses alertes d'environ 80 %. L'étude est parue le 13 octobre 2026 dans Nature Medicine.",
+      "pourquoi": "L'idée est de laisser la personne corriger l'appareil en direct au lieu d'attendre l'avis du médecin : cela pourrait à terme rendre les alertes plus fiables au quotidien, mais l'essai s'est déroulé à l'hôpital, sur très peu de participants.",
+      "categorie": "Technologie",
+      "niveau": "Recherche",
+      "pays": "États-Unis",
+      "source_nom": "Nature Medicine (communiqué NIH/NINDS)",
+      "source_url": "https://www.nih.gov/news-events/news-releases/patients-engage-epilepsy-monitor-real-time-improving-seizure-detection",
+      "references": [
+        "DOI:10.1038/s41591-026-04680-4"
+      ],
+      "importance": 2,
+      "id": "c08c88627f38",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Diabète",
@@ -252,6 +307,24 @@
       "source_nom": "PR Newswire",
       "source_url": "https://www.prnewswire.com/news-releases/breakthrough-t1d-concludes-inaugural-clinical--research-congress-highlighting-global-advances-in-type-1-diabetes-research-302906186.html",
       "importance": 2
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-12",
+      "titre": "Stimulation cérébrale profonde : surveiller l'humeur après la pose de l'implant",
+      "resume": "Une étude publiée le 12 octobre 2026 dans Epilepsia a relu les dossiers de 90 personnes ayant reçu une stimulation cérébrale profonde du thalamus (un implant qui envoie des impulsions électriques dans une zone profonde du cerveau) pour une épilepsie résistante aux médicaments. Onze d'entre elles (12,2 %) ont développé des idées suicidaires, des menaces ou une agressivité nouvelle nécessitant une prise en charge. Le risque était surtout lié à des antécédents psychiatriques avant l'opération (risque multiplié par 8), et non à la position des électrodes. Dans 8 cas sur 11, ces symptômes ont disparu après avoir baissé la fréquence de stimulation.",
+      "pourquoi": "Cela invite à évaluer l'humeur avant et après la pose d'un implant, et montre que ces complications sont souvent réversibles en réglant l'appareil.",
+      "categorie": "Complications",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "Epilepsia",
+      "source_url": "https://doi.org/10.1002/epi.70540",
+      "references": [
+        "DOI:10.1002/epi.70540"
+      ],
+      "importance": 1,
+      "id": "2076ad0173d5",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Diabète",
@@ -396,6 +469,61 @@
       "importance": 1
     },
     {
+      "theme": "Insuffisance ovarienne précoce",
+      "date": "2026-10-01",
+      "titre": "Insuffisance ovarienne débutante : un essai français teste le plasma riche en plaquettes",
+      "resume": "Un essai français, PRESERV, va comparer chez 126 participantes une injection dans l'ovaire de plasma riche en plaquettes activé (PRPa : une préparation faite à partir du sang de la personne, riche en facteurs de croissance) au prélèvement habituel, chez des femmes ayant une insuffisance ovarienne débutante et devant préserver leur fertilité avant un traitement médical. Le critère principal est le nombre d'ovocytes arrivés à maturité. C'est un essai tiré au sort et en double aveugle (ni la participante ni l'équipe ne sait qui reçoit l'injection), mené dans plusieurs centres français ; au 1er octobre 2026, le recrutement n'était pas encore ouvert selon le registre national des essais cliniques (numéro 2025-A02065-44).",
+      "pourquoi": "C'est justement l'essai comparatif qui manquait pour savoir si le PRP dans l'ovaire apporte quelque chose : les données publiées jusqu'ici sont trop faibles pour le recommander, et il faudra attendre ses résultats.",
+      "categorie": "Fertilité",
+      "niveau": "Essai clinique",
+      "pays": "France",
+      "source_nom": "Sante.fr (registre national des essais cliniques)",
+      "source_url": "https://www.sante.fr/essais-cliniques/2025-A02065-44/impact-de-l-injection-intra-ovarienne-de-plasma-riche-en-plaquettes-active-prpa-sur-le-nombre-d-ovocytes-matures-obtenus-dans-le-cadre-d-une-preservation-de-la-fertilite-medicale-pour-insuffisance-ovarienne-debutante-iod-essai-clinique-controle-prospectif-randomise-multicentrique-en-double-insu-preserv",
+      "references": [],
+      "importance": 2,
+      "id": "17df8fc88fcf",
+      "date_ajout": "2026-10-31"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-10-01",
+      "titre": "Épilepsie résistante : poser stimulation et chirurgie dans la même opération",
+      "resume": "Une étude publiée en octobre 2026 dans le Journal of Neurosurgery a regroupé 73 personnes opérées dans 9 centres américains d'une épilepsie résistante aux médicaments. Toutes ont reçu un stimulateur cérébral réactif (un boîtier implanté qui détecte le début d'une crise et envoie une impulsion pour l'interrompre) posé en même temps qu'une ablation ou une résection d'une zone du cerveau, le plus souvent parce que la zone à traiter touchait une région du langage ou du mouvement. À un an, la fréquence des crises focales avec altération de la conscience (la personne n'est plus pleinement consciente) avait baissé en moyenne de 69 %, et 48 % des participants ont eu au moins six mois sans aucune crise. Trois personnes ont eu une infection. L'étude décrit des dossiers relus après coup, sans comparaison.",
+      "pourquoi": "Une option de plus pour des épilepsies complexes où l'on ne peut pas enlever largement la zone malade — mais ces résultats décrivent la pratique actuelle, ce n'est pas un essai tiré au sort.",
+      "categorie": "Technologie",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis",
+      "source_nom": "Journal of Neurosurgery",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42887034/",
+      "references": [
+        "PMID:42887034",
+        "DOI:10.3171/2026.5.JNS252911"
+      ],
+      "importance": 2,
+      "id": "2d9a85791e1a",
+      "date_ajout": "2026-10-31"
+    },
+    {
+      "theme": "Diabète",
+      "type": "Type 1",
+      "date": "2026-09-30",
+      "titre": "Diabète de type 1 : des cellules souches de la gencive testées chez 18 personnes",
+      "resume": "Un essai de phase 1 chinois, publié le 30 septembre 2026 dans Signal Transduction and Targeted Therapy, a testé chez 18 adultes vivant avec un diabète de type 1 des cellules souches prélevées dans la gencive (des cellules qui calment l'attaque du système immunitaire), injectées dans une veine quatre fois à trois semaines d'intervalle. À 12 semaines, 5 des 9 personnes traitées (55,6 %) produisaient davantage d'insuline par elles-mêmes (mesurée par le peptide C) et avaient besoin de moins d'insuline injectée, contre aucune dans le groupe placebo ; une personne a même arrêté l'insuline. Aucun effet indésirable grave n'est rapporté. C'est le tout premier essai de cette approche, sur un très petit nombre de personnes.",
+      "pourquoi": "Une piste immunitaire de plus, mais encore très précoce : 9 personnes seulement ont reçu le traitement, avec 12 semaines de suivi, et rien n'est disponible aujourd'hui.",
+      "categorie": "Cellules souches",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "Signal Transduction and Targeted Therapy",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42816465/",
+      "references": [
+        "PMID:42816465",
+        "DOI:10.1038/s41392-026-03021-8"
+      ],
+      "importance": 2,
+      "id": "a4c3499a9c15",
+      "date_ajout": "2026-10-31"
+    },
+    {
       "theme": "Encéphalite auto-immune",
       "date": "2026-09-25",
       "titre": "Encéphalite anti-NMDAR qui rechute : moins de crises avec l'ofatumumab",
@@ -432,6 +560,25 @@
       "importance": 2,
       "id": "a6244c4d1e01",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Épilepsie",
+      "date": "2026-09-25",
+      "titre": "Mort subite dans l'épilepsie : plus d'un proche sur deux n'en a jamais entendu parler",
+      "resume": "Une enquête internationale menée dans 34 pays auprès de 615 proches de personnes atteintes d'encéphalopathies épileptiques et développementales (des épilepsies sévères qui commencent dans l'enfance, avec un retentissement sur le développement) montre que 55 % des aidants n'ont jamais reçu d'information sur la mort subite inattendue en épilepsie (SUDEP : un décès brutal pendant ou juste après une crise, encore mal expliqué). Chez ceux qui en avaient reçu, elle arrivait en moyenne près de six ans après le début des crises. 56,6 % des familles avaient mis en place des mesures de prévention, mais 74,1 % les jugeaient insuffisantes, et seuls 8,8 % des répondants avaient reçu un soutien psychologique. L'étude est parue le 25 septembre 2026 dans Epilepsia Open.",
+      "pourquoi": "Cela montre que l'information sur ce risque arrive encore trop peu et trop tard — les familles interrogées demandaient justement qu'on leur en parle plus tôt et plus clairement.",
+      "categorie": "Quotidien",
+      "niveau": "Recherche",
+      "pays": "International",
+      "source_nom": "Epilepsia Open",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42789312/",
+      "references": [
+        "DOI:10.1002/epi4.70353",
+        "PMID:42789312"
+      ],
+      "importance": 2,
+      "id": "e3f40ceaedf8",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Encéphalite auto-immune",
@@ -487,6 +634,23 @@
       "type": "Type 1",
       "id": "1a24bfeeb376",
       "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Diabète",
+      "type": "Type 1",
+      "date": "2026-09-22",
+      "titre": "Un essai compare deux immunothérapies pour retarder le diabète de type 1",
+      "resume": "Le réseau de recherche TrialNet a lancé le 22 septembre 2026 l'essai ASCEND T1D. Soixante personnes de 4 à 34 ans au stade 2 du diabète de type 1 (des auto-anticorps sont présents et la glycémie est déjà anormale, mais sans symptômes) recevront, au hasard, soit de l'anti-thymocyte globuline (ATG), soit du téplizumab, le seul traitement déjà autorisé aux États-Unis pour retarder la maladie. Il n'y a pas de placebo : chaque participant reçoit l'un des deux traitements. L'objectif est de voir si l'ATG fait aussi bien que le téplizumab.",
+      "pourquoi": "Comparer directement deux immunothérapies est rare et utile pour choisir le traitement — mais l'inclusion doit prendre environ trois ans, aucun résultat n'est attendu avant plusieurs années.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "États-Unis / international",
+      "source_nom": "TrialNet (essai ASCEND T1D)",
+      "source_url": "https://www.trialnet.org/ascend-t1d",
+      "references": [],
+      "importance": 1,
+      "id": "7041feca1f29",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Diabète",
@@ -598,6 +762,25 @@
       "importance": 2,
       "id": "379ada0eba53",
       "date_ajout": "2026-10-28"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-09-13",
+      "titre": "Encéphalite auto-immune : l'efgartigimod suivi en pratique courante chez 18 patients",
+      "resume": "Une étude chinoise publiée le 13 septembre 2026 dans la revue Neuroprotection a suivi 18 personnes atteintes d'une encéphalite auto-immune (10 anti-NMDAR, 8 anti-LGI1) traitées par efgartigimod, un médicament qui accélère l'élimination des anticorps responsables de l'inflammation, à raison d'une perfusion par semaine pendant 2 à 4 semaines. Chez les patients anti-NMDAR, le handicap (score mRS) est passé de 3 à 1 en médiane et le score de gravité de la maladie de 7,5 à 1,5. Un seul effet indésirable a été rapporté (une pneumonie légère). Il n'y avait ni tirage au sort ni groupe témoin.",
+      "pourquoi": "Une piste pour agir vite sur les anticorps, mais il faut un essai tiré au sort pour savoir si cela fait mieux que les traitements actuels : un grand essai, POLARIS, doit démarrer en 2027.",
+      "categorie": "Immunothérapie",
+      "niveau": "Essai clinique",
+      "pays": "Chine",
+      "source_nom": "Neuroprotection",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42741498/",
+      "references": [
+        "PMID:42741498",
+        "DOI:10.1002/nep3.70063"
+      ],
+      "importance": 1,
+      "id": "f33c6c1b90a9",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Épilepsie",
@@ -728,6 +911,60 @@
       "importance": 1,
       "id": "8932cb2129cc",
       "date_ajout": "2026-10-29"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-09-01",
+      "titre": "Maturation in vitro : chercher dans le liquide de culture quels ovocytes mûrissent",
+      "resume": "Une équipe chinoise a analysé le liquide de culture utilisé pendant la maturation in vitro (MIV) d'ovocytes chez 8 femmes ayant un syndrome des ovaires polykystiques (SOPK : des ovaires contenant de nombreux petits follicules, souvent avec des cycles irréguliers) ; 49 ovocytes au total ont été étudiés. En comparant le liquide des ovocytes devenus mûrs et de ceux qui ne l'étaient pas, et avec deux méthodes d'analyse automatisée, les chercheurs ont détecté 248 molécules et en ont retenu 15 qui distinguent les deux situations. Les ovocytes non mûrs accumulaient notamment des molécules liées au métabolisme du sucre et des acides aminés. L'étude est parue le 1er septembre 2026 dans le Journal of Ovarian Research.",
+      "pourquoi": "L'objectif est de repérer pendant la culture quels ovocytes sont sur la bonne voie, pour adapter un jour les milieux ou les protocoles de MIV — c'est de la recherche, sur un très petit nombre de patientes, pas un test utilisé en pratique.",
+      "categorie": "Recherche",
+      "niveau": "Recherche",
+      "pays": "Chine",
+      "source_nom": "Journal of Ovarian Research",
+      "source_url": "https://link.springer.com/article/10.1186/s13048-026-02252-1",
+      "references": [
+        "DOI:10.1186/s13048-026-02252-1"
+      ],
+      "importance": 1,
+      "id": "703817cd9238",
+      "date_ajout": "2026-10-31"
+    },
+    {
+      "theme": "Encéphalite auto-immune",
+      "date": "2026-08-24",
+      "titre": "Encéphalite auto-immune : des troubles de mémoire des années après, malgré un « bon » bilan",
+      "resume": "Une étude danaise a réexaminé 86 des 108 adultes diagnostiqués avec une encéphalite auto-immune au Danemark entre 2009 et 2022, en moyenne plus de six ans après les premiers symptômes. Sur le papier, presque tous allaient bien dans la vie quotidienne : toutes les personnes ayant une encéphalite anti-NMDAR et 86 % de celles ayant une encéphalite limbique. Mais aux tests de mémoire et d'attention, 45 % des premières et 43 % des secondes avaient des troubles dans plusieurs domaines, surtout la mémoire et les fonctions « exécutives » (celles qui servent à organiser et planifier). 15 % remplissaient les critères d'une démence après l'encéphalite, et la fatigue touchait environ un tiers des participants. Les auteurs recommandent le test MoCA, un test rapide, quand aucun neuropsychologue n'est disponible.",
+      "pourquoi": "Cela aide à faire reconnaître une fatigue et des troubles de mémoire qui durent, alors qu'un simple bilan d'autonomie peut donner l'impression que tout va bien.",
+      "categorie": "Complications",
+      "niveau": "Recherche",
+      "pays": "Danemark",
+      "source_nom": "Neurology: Neuroimmunology & Neuroinflammation",
+      "source_url": "https://www.neurology.org/doi/10.1212/NXI.0000000000200641",
+      "references": [
+        "DOI:10.1212/NXI.0000000000200641"
+      ],
+      "importance": 2,
+      "id": "51e445a85b8f",
+      "date_ajout": "2026-10-31"
+    },
+    {
+      "theme": "Maturation in vitro",
+      "date": "2026-08-23",
+      "titre": "Maturation in vitro : des ovocytes récupérés sur l'ovaire retiré, quatre cas décrits",
+      "resume": "Un article publié le 23 août 2026 dans Gynecologic Oncology Reports décrit quatre femmes atteintes d'un cancer gynécologique dont un ovaire (ou les deux) a dû être retiré. Les ovocytes encore immatures présents dans le tissu ovarien retiré ont été récupérés et laissés mûrir au laboratoire (OTO-MIV, maturation in vitro à partir du tissu de l'ovaire), puis congelés avant tout traitement. Aucune grossesse n'est rapportée dans cette petite série. Les auteurs rappellent que seules sept naissances au monde ont été publiées après cette technique, qu'elle reste expérimentale et que le nombre d'ovocytes obtenus est bien plus faible qu'après une stimulation hormonale.",
+      "pourquoi": "Une voie possible quand prélever des ovocytes avant l'opération n'est pas faisable — mais la technique reste expérimentale, avec très peu de naissances rapportées dans le monde.",
+      "categorie": "Fertilité",
+      "niveau": "Recherche",
+      "pays": "Singapour",
+      "source_nom": "Gynecologic Oncology Reports",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42699669/",
+      "references": [
+        "PMID:42699669"
+      ],
+      "importance": 1,
+      "id": "501d587ae2c6",
+      "date_ajout": "2026-10-31"
     },
     {
       "theme": "Maturation in vitro",
